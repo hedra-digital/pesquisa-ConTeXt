@@ -1,0 +1,8 @@
+return {
+ ["filename"]="/home/editorial/LATEX/pesquisa-ConTeXt/012b.tex",
+ ["lastcontext"]="\n<recently read> \\setupmarks \n             \nl.7 \\setupmarks\n              [sangria][cutspace=1cm]",
+ ["lastluaerror"]="?",
+ ["lasttexerror"]="! Undefined control sequence",
+ ["linenumber"]=7,
+ ["offset"]=10,
+}

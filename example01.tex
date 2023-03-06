@@ -1,0 +1,133 @@
+\setuppapersize[A4]
+\mainlanguage[fr]
+\usemodule[chart]
+ %\setuplayout[backspace=3.5cm,width=14cm]
+  \usesymbols[fontawesome]
+  \setuppagenumbering[alternative=doublesided,location=]
+  %\setupheader[text][after=\hrule]
+  %\setupheadertexts[]
+  %\setupheadertexts[\setups{text a}][][\setups{text b}][]
+  %\startsetups[text a]
+  %  \hskip-1.5cm
+  %  \framed[frame=off,width=17cm,offset=none]{
+   %  \rlap{Cardiologie}
+  %  \hfill
+  %  {\darkred \ss Clinique EL ABRAR}
+  %  \hfill
+  %  \llap{\pagenumber}}
+:q  %\stopsetups
+  %\startsetups[text b]
+  %  \hskip-1.5cm
+  %  \framed[frame=off,width=17cm,offset=none]{
+  %  \rlap{\tfxx \ss 15 Rue Tolozane Les Palmiers, Oran}
+  %  \hfill
+  %  {Clinique EL ABRAR}
+  %  \hfill
+  %  \llap{\pagenumber}}
+  %\stopsetups
+  \definecolor[abrar][r=0.02,g=0.49,b=0.52]
+  \definefontfeature[default][default][onum=yes]
+  %\definefallbackfamily [texgyre] [serif] [amiriregular] [range=arabic]
+  %\define[1]\Arab{\setuplayout[r2l] \texgyre#1}
+  \definefontfamily[texgyre][serif][merriweather]
+  \definefontfamily[texgyre][sans] [merriweathersans]
+  \definefontfamily[texgyre][mono] [TeX Gyre Cursor][features=none]
+  \definefontfamily[texgyre][math] [TeX Gyre Pagella Math]
+  \setupbodyfont[texgyre,11pt]
+  \setupfootertexts[\tfx Rapport médical --- Page \currentpage\ de               \lastpage  ---  Le \currentdate]
+  \setuphead[subject][color=abrar,style=\ssb \bf]
+  \setuphead[subsubject][color=abrar, style=\ss\tfb\bi]
+  \edef\defaultlineheight{\the\lineheight}
+  \startMPdefinitions
+   newpath basicShape;
+   basicShape := unitsquare ;
+
+   DefaultLineHeight := \defaultlineheight;
+  \stopMPdefinitions
+
+  \startuseMPgraphic {unnumberedbullet}
+   fill basicShape scaled OverlayWidth shifted (0, 0.5*LineHeight)
+      withcolor \MPcolor{darkred};
+  setbounds currentpicture to OverlayBox;
+  \stopuseMPgraphic
+
+  \startuseMPgraphic {numberedbullet}
+    fill basicShape xyscaled (0.9*DefaultLineHeight,         0.9*DefaultLineHeight)
+   shifted (-0.5(0.9*DefaultLineHeight - OverlayWidth, 0))
+      withcolor \MPcolor{abrar};
+    setbounds currentpicture to OverlayBox;
+    \stopuseMPgraphic
+
+    \defineoverlay[unnumberedbullet][\useMPgraphic{unnumberedbullet}]
+    \defineframed [unnumberedbullet]
+         [
+           frame=off,
+           width=0.5\bodyfontsize,
+           background=unnumberedbullet,
+           location=low,
+         ]
+
+    \definesymbol[unnumberedbullet]
+        [{\unnumberedbullet{}}]
+
+
+    \defineoverlay[numberedbullet][\useMPgraphic{numberedbullet}]
+    \defineframed [numberedbullet]
+         [
+           frame=off,
+           width=\lineheight,
+           background=numberedbullet,
+           foregroundcolor=white,
+            % Center the number against capital letters, ignoring  character descent
+           location=depth,
+           foregroundstyle={\small\small}, % better to define a custom fontswitch
+         ]
+
+
+     \definesymbol[numberedbullet]
+        [{\numberedbullet{\currentitemnumber}}]
+      \defineframedtext[cadrevert]
+    [background=screen,backgroundscreen=.85,
+     width=0.9\textwidth,
+    frame=off,
+    leftframe=on,
+    framecolor=darkred,
+    rulethickness=3pt]
+    \usemodule[symb-imp-fontawesome]
+    \usesymbols[fontawesome]
+    \setupbodyfont[10pt]
+                   %%%%%
+    \starttext
+    \startalignment[middle]
+    \dontleavehmode
+    \framed
+    [background=color,backgroundcolor=darkred,
+    backgroundoffset=5pt,corner=0,frame=0,
+    foreground=color,foregroundcolor=white]
+    {\ssc \bf RAPPORT MÉDICAL}
+    \stopalignment
+    \blank[3*big]
+
+   \startitemize[unnumberedbullet,columns,two,stretch]
+   \startitem { \bf \ss Nom \& prénoms\hspace[medium]} {\sc Hamid Bougherara} \stopitem
+   \startitem {\bf \ss Date de naissance \hspace[medium]} 17/02/2000          \stopitem
+   \startitem {\bf\ss Adresse \hspace[medium]} { Aïn Témouchent}   \stopitem
+   \startitem {\bf\ss Médecin réferent\hspace[big]} {\sc Dr Hamid}     \stopitem
+    %\raggedleft
+     \startitem {\bf\ss Motifs \hspace[big]} angine de poitrine\\
+      dyspnée
+      \stopitem
+    \startitem {\ss\bf Date \hspace[big]} \currentdate \stopitem
+    \stopitemize
+    \subject{ANTÉCÉDENTS - FDR}
+    \startitemize[unnumberedbullet]
+    \startitem {\bf \ss Diabète:} bien équilibré sous traitement {\abrar  Glucophage 850mg} \stopitem
+    \startitem {\bf \ss HTA:} bien équilibré sous traitement Triatec     \stopitem
+    \stopitemize
+    \startcadrevert
+    Au total il s'agit de Mr {\sc Hamid Bougherara} aux antécedents de     {\bf angine de poitrine} dont le test d'ischémie est revenu positif pour     les territoires \abrar postérieurs.
+  \stopcadrevert
+   \subject{Dispositions complémentaires}
+
+
+\stoptext

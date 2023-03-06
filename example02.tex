@@ -1,0 +1,165 @@
+\setuppapersize[A4]
+ \mainlanguage[fr]
+%\usemodule[chart]
+\setuplayout[header=3.5cm,headerdistance=1cm,margin=2.5cm,footer=2.5cm]
+\usesymbols[fontawesome]
+\setuppagenumbering[alternative=doublesided,location=]
+\definecolor[abrar][r=0.02,g=0.49,b=0.52]
+\definefontfeature[default][default][onum=yes]
+
+\definefontfamily[merry][serif][merriweather]
+\definefontfamily[merry][sans] [merriweathersans]
+\definefontfamily[merry][mono] [TeX Gyre Cursor][features=none]
+\definefontfamily[merry][math] [TeX Gyre Pagella Math]
+
+
+\definelayer[mybg]  % name of the layer
+ [x=0mm, y=0mm, % from upper left corner of paper
+  width=\paperwidth, height=\paperheight, % let the layer cover the full  paper
+   ]
+
+ \setupbackgrounds[page][background=mybg]
+ \setupdirections[bidi=global]
+ \definefontfeature
+  [arabic]
+  [mode=node,language=dflt,script=arab,
+   init=yes,medi=yes,fina=yes,isol=yes,
+   liga=yes,dlig=yes,rlig=yes,clig=yes,
+   mark=yes,mkmk=yes,kern=yes,curs=yes,
+    saed=yes]
+
+ \starttypescript [serif] [arabic]
+  \definefontsynonym [Arabic-Regular] [mothanna] [features=arabic]
+  \stoptypescript
+
+ \starttypescript [serif] [arabic] [name]
+ \definefontsynonym [Serif]     [Arabic-Regular] [features=arabic]
+ \stoptypescript
+
+ \starttypescript [mothanna]
+ \definetypeface [mothanna] [rm] [serif] [arabic] [default]
+ \stoptypescript
+
+ \usetypescriptfile[type-mothanna]
+ \usetypescript[mothanna]
+%\pagedir TRT \bodydir TRT \pardir TRT \textdir TRT
+ \setupbodyfont[merry,10pt]
+
+ \setuphead[subject][color=abrar,style=\ssa\bf] 
+ \setuphead[subsubject][color=abrar, style=\ss\tfb\bi]
+ \edef\defaultlineheight{\the\lineheight}
+ \startMPdefinitions
+   newpath basicShape;
+    basicShape := unitsquare ;
+
+  DefaultLineHeight := \defaultlineheight;
+ \stopMPdefinitions
+
+ \startuseMPgraphic {unnumberedbullet}
+ fill basicShape scaled OverlayWidth shifted (0, 0.5*LineHeight)
+   withcolor \MPcolor{darkred};
+  setbounds currentpicture to OverlayBox;
+ \stopuseMPgraphic
+
+  \startuseMPgraphic {numberedbullet}
+   fill basicShape xyscaled (0.9*DefaultLineHeight,   0.9*DefaultLineHeight)
+   shifted (-0.5(0.9*DefaultLineHeight - OverlayWidth, 0))
+       withcolor \MPcolor{abrar};
+    setbounds currentpicture to OverlayBox;
+   \stopuseMPgraphic
+
+  \defineoverlay[unnumberedbullet][\useMPgraphic{unnumberedbullet}]
+  \defineframed [unnumberedbullet]
+          [
+            frame=off,
+            width=0.5\bodyfontsize,
+            background=unnumberedbullet,
+            location=low,
+          ]
+
+  \definesymbol[unnumberedbullet]
+         [{\unnumberedbullet{}}]
+
+
+ \defineoverlay[numberedbullet][\useMPgraphic{numberedbullet}]
+ \defineframed [numberedbullet]
+          [
+            frame=off,
+            width=\lineheight,
+            background=numberedbullet,
+            foregroundcolor=white,
+            % Center the number against capital letters, ignoring character descent
+            location=depth,
+            foregroundstyle={\small\small}, % better to define a custom fontswitch
+          ]
+
+
+ \definesymbol[numberedbullet]
+         [{\numberedbullet{\currentitemnumber}}]
+  \defineframedtext[cadrevert]
+  [background=screen,backgroundscreen=.85,
+   width=0.9\textwidth,
+  frame=off,
+  leftframe=on,
+  framecolor=darkcyan,
+  rulethickness=3pt]
+
+  \setupheadertexts[\setups{tableheader}]
+
+ \startsetups tableheader
+ \starttabulate[|p|lrw(2cm)|pr|]
+ \NC \ss Clinique médico chirurgicale El Abrar\NC          \externalfigure[logo.png][width=2cm, location=inline]\NC \setupalign[r2l]     \switchtobodyfont[mothanna]{ العيادة الطبية الجراحية الأبرار}\NC \NR
+   \NC \setupalign[l2r]\ss Service de cardiologie\NC \NC  \setupalign[r2l] \switchtobodyfont[mothanna]{ مصلحة أمراض القلب}\NC\NR
+  \setupalign[l2r]
+   \NC \ss\tfx Dr Yahyaoui .M.K \NC  \NC \ss\tfx  kaddourkardio(at)gmail.com \NC \NR
+  \stoptabulate      
+  \stopsetups
+  \setuppagenumbering[location={header,margin}]
+ \setupfootertexts[\setups{tablefooter}]
+
+  \startsetups tablefooter 
+  \startframed[frame=off,
+    background=color,
+    backgroundcolor=lightgray,
+    style={\ss\tfx}]
+    \starttabulate[|lw(.5cm)|p|rw(1cm)|p|]
+   \NC \symbol[fontawesome][ambulance] \NC 15,rue Tolozane Les palmiers,  Oran \NC \symbol[fontawesome][phone] \NC (+213) 041-496-066 \NC\NR
+   \NC \symbol[fontawesome][fax] \NC(+213) 041-233-491 
+   \NC \symbol[fontawesome][mobile] \NC (+213) 0561 882-066\NC\NR
+   \NC \symbol[fontawesome][envelope-o] \NC clinique-elabrar\symbol[fontawesome][at]laposte.net\NC \symbol[fontawesome][mobile]    \NC (+213) 0561 882-066\NC\NR
+ \stoptabulate
+ \stopframed
+ \stopsetups
+
+  \starttext
+  \startalignment[middle]
+  \blank[big]
+   \dontleavehmode
+  \framed
+   [background=color,backgroundcolor=darkred,
+    backgroundoffset=5pt,corner=0,frame=0,
+    foreground=color,foregroundcolor=white]
+    {\ssc \bf RAPPORT MÉDICAL}
+   \stopalignment
+    \blank[2*big]
+    \startitemize[unnumberedbullet,columns,two,stretch]
+   \startitem { \bf \ss Nom \& prénoms\hspace[medium]} {\sc Hamid Bougherara} \stopitem
+   \startitem {\bf \ss Date de naissance \hspace[medium]} 17/02/2000     \stopitem
+   \startitem {\bf\ss Adresse \hspace[medium]} { Aïn Témouchent}     \stopitem
+   \startitem {\bf\ss Médecin réferent\hspace[big]} {\sc Dr Hamid}     \stopitem
+    %\raggedleft 
+   \startitem {\bf\ss Motifs \hspace[big]} angine de poitrine\\
+   \stopitem
+   \startitem {\ss\bf Date \hspace[big]} \currentdate \stopitem
+   \stopitemize
+   \subject{ANTÉCÉDENTS - FDR}
+  \startitemize[unnumberedbullet]
+   \startitem {\bf \ss Diabète:} bien équilibré sous traitement {\abrar    Glucophage 850mg} \stopitem
+   \startitem {\bf \ss HTA:} bien équilibré sous traitement Triatec     \stopitem
+  \stopitemize
+  \subject{Dispositions complémentaires}
+
+  Au total il s'agit de Mr {\sc Hamid Bougherara} aux antécedents de     {\bf angine de poitrine} dont le test d'ischémie est revenu positif pour les    territoires {\abrar postérieurs}.
+
+
+  \stoptext
