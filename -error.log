@@ -1,0 +1,8 @@
+return {
+ ["filename"]="",
+ ["lastcontext"]="\n<*> x\n   ",
+ ["lastluaerror"]="?",
+ ["lasttexerror"]="! Interruption",
+ ["linenumber"]=0,
+ ["offset"]=10,
+}
