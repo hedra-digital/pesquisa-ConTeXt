@@ -1,0 +1,55 @@
+\usemodule[tikz]
+
+\define[1]\squarered{%
+  \tikz{\node[draw=red,thick,rounded corners=6pt,inner sep=6pt] {#1};}%
+}
+
+\define[1]\squareblue{%
+  \tikz{\node[draw=blue,thick,rounded corners=6pt,inner sep=6pt] {#1};}%
+}
+
+\usemodule[checkbox]
+
+\definecheckbox
+  [mycheckbox]
+  [yes]
+
+\starttext
+
+%Boxes de exercícios
+
+\startcolumns[n=2]
+\squarered{Esta}
+
+\squarered{Esta}
+
+\squarered{Esta}
+
+\column
+
+\squareblue{coluna} 
+
+\squareblue{coluna} 
+
+\squareblue{coluna} 
+\stopcolumns
+
+%Linhas de exercício
+
+\startcolor[red]
+\hrule height .5pt width \textwidth
+\blank[.5cm]
+\hrule height .5pt width \textwidth
+\blank[.5cm]
+\hrule height .5pt width \textwidth
+
+\stopcolor
+
+\startitemize[n]
+  \item \startmycheckbox Primeira opção \stopmycheckbox
+  \item \startmycheckbox Segunda opção \stopmycheckbox
+  \item \startmycheckbox Terceira opção \stopmycheckbox
+\stopitemize
+
+
+\stoptext
