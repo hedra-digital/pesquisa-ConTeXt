@@ -5,37 +5,61 @@ Scanning input file 014.tex...
 !! Input index error (file = 014.tex, line = 3):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = 014.tex, line = 5):
-   -- Unknown index keyword \index.
+   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = 014.tex, line = 6):
-   -- Unknown index keyword \index.
-!! Input index error (file = 014.tex, line = 7):
-   -- Unknown index keyword \index.
-!! Input index error (file = 014.tex, line = 8):
-   -- Unknown index keyword \index.
+   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = 014.tex, line = 9):
-   -- Unknown index keyword \index.
+   -- Unknown index keyword \chapter.
+!! Input index error (file = 014.tex, line = 10):
+   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = 014.tex, line = 11):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = 014.tex, line = 12):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = 014.tex, line = 13):
    -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = 014.tex, line = 14):
-   -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = 014.tex, line = 15):
-   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = 014.tex, line = 16):
-   -- Missing arguments -- need two (premature LFD).
+   -- Unknown index keyword \index.
 !! Input index error (file = 014.tex, line = 17):
-   -- Missing arguments -- need two (premature LFD).
+   -- Unknown index keyword \index.
 !! Input index error (file = 014.tex, line = 18):
-   -- Missing arguments -- need two (premature LFD).
+   -- Unknown index keyword \index.
 !! Input index error (file = 014.tex, line = 19):
+   -- Unknown index keyword \index.
+!! Input index error (file = 014.tex, line = 20):
+   -- Unknown index keyword \index.
+!! Input index error (file = 014.tex, line = 22):
+   -- Unknown index keyword \chapter.
+!! Input index error (file = 014.tex, line = 24):
    -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = 014.tex, line = 21):
+!! Input index error (file = 014.tex, line = 25):
    -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = 014.tex, line = 23):
+!! Input index error (file = 014.tex, line = 26):
    -- Missing arguments -- need two (premature LFD).
-done (0 entries accepted, 18 rejected).
+!! Input index error (file = 014.tex, line = 27):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 30):
+   -- Unknown index keyword \chapter.
+!! Input index error (file = 014.tex, line = 32):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 33):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 34):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 37):
+   -- Unknown index keyword \index.
+!! Input index error (file = 014.tex, line = 38):
+   -- Unknown index keyword \index.
+!! Input index error (file = 014.tex, line = 39):
+   -- Unknown index keyword \index.
+!! Input index error (file = 014.tex, line = 40):
+   -- Unknown index keyword \index.
+!! Input index error (file = 014.tex, line = 41):
+   -- Unknown index keyword \index.
+!! Input index error (file = 014.tex, line = 44):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 46):
+   -- Missing arguments -- need two (premature LFD).
+done (0 entries accepted, 30 rejected).
 Nothing written in 014.ind.
 Transcript written in 014.ilg.

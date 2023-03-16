@@ -40,19 +40,19 @@ utilitydata.job.positions.collected={
   ["c"]=1,
   ["d"]=265592,
   ["h"]=3528588,
-  ["p"]=2,
+  ["p"]=4,
   ["w"]=13395147,
   ["x"]=4661756,
-  ["y"]=21541919,
+  ["y"]=20543703,
  },
  ["columnarea:2"]={
   ["c"]=2,
   ["d"]=265592,
   ["h"]=3528588,
-  ["p"]=2,
+  ["p"]=4,
   ["w"]=13395147,
   ["x"]=19236550,
-  ["y"]=21541919,
+  ["y"]=20543703,
  },
  ["p:1"]={
   ["d"]=265592,
@@ -60,15 +60,55 @@ utilitydata.job.positions.collected={
   ["hs"]=27969941,
   ["p"]=1,
   ["x"]=4661756,
-  ["y"]=46204089,
+  ["y"]=43179174,
  },
  ["p:2"]={
   ["d"]=265592,
   ["h"]=682953,
   ["hs"]=27969941,
+  ["p"]=1,
+  ["x"]=4661756,
+  ["y"]=41519221,
+ },
+ ["p:3"]={
+  ["d"]=265592,
+  ["h"]=682953,
+  ["hs"]=27969941,
+  ["p"]=1,
+  ["x"]=4661756,
+  ["y"]=39859268,
+ },
+ ["p:4"]={
+  ["d"]=265592,
+  ["h"]=682953,
+  ["hs"]=27969941,
   ["p"]=2,
   ["x"]=4661756,
-  ["y"]=24387554,
+  ["y"]=43308783,
+ },
+ ["p:5"]={
+  ["d"]=265592,
+  ["h"]=682953,
+  ["hs"]=27969941,
+  ["p"]=3,
+  ["x"]=4661756,
+  ["y"]=43308783,
+ },
+ ["p:6"]={
+  ["d"]=265592,
+  ["h"]=682953,
+  ["hs"]=27969941,
+  ["p"]=4,
+  ["x"]=4661756,
+  ["y"]=43308783,
+ },
+ ["p:7"]={
+  ["d"]=265592,
+  ["h"]=682953,
+  ["hs"]=27969941,
+  ["p"]=4,
+  ["x"]=4661756,
+  ["y"]=23389338,
  },
  ["page:1"]={
   ["h"]=55380990,
@@ -86,6 +126,20 @@ utilitydata.job.positions.collected={
  ["text:2"]={
   ["h"]=39158627,
   ["p"]=2,
+  ["w"]=27969941,
+  ["x"]=4661756,
+  ["y"]=7831894,
+ },
+ ["text:3"]={
+  ["h"]=39158627,
+  ["p"]=3,
+  ["w"]=27969941,
+  ["x"]=4661756,
+  ["y"]=7831894,
+ },
+ ["text:4"]={
+  ["h"]=39158627,
+  ["p"]=4,
   ["w"]=27969941,
   ["x"]=4661756,
   ["y"]=7831894,
@@ -120,6 +174,30 @@ if not utilitydata.structures then utilitydata.structures = { } end
 if not utilitydata.structures.sections then utilitydata.structures.sections = { } end
 
 utilitydata.structures.sections.collected={
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["language"]="en",
+  ["numbers"]=1,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["language"]="en",
+  ["numbers"]=2,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["language"]="en",
+  ["numbers"]=3,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
 }
 
 if not utilitydata.structures then utilitydata.structures = { } end
@@ -127,7 +205,7 @@ if not utilitydata.structures.counters then utilitydata.structures.counters = { 
 
 utilitydata.structures.counters.collected={
  ["chemical"]={
-  { 0 },
+  { 0, 0, 0, 0, 0 },
  },
  ["combination"]={
   { 0 },
@@ -136,46 +214,46 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["figure"]={
-  { 0 },
+  { 0, 0, 0, 0, 0 },
  },
  ["footnote"]={
   { 0 },
  },
  ["formula"]={
-  { 0 },
+  { 0, 0, 0, 0, 0 },
  },
  ["graphic"]={
-  { 0 },
+  { 0, 0, 0, 0, 0 },
  },
  ["intermezzo"]={
-  { 0 },
+  { 0, 0, 0, 0, 0 },
  },
  ["itemgroup:itemize"]={
-  { 0 },
+  { 0, 0, 0, 0, 0 },
  },
  ["itemgroup:itemize:note"]={
-  { 0 },
+  { 0, 0, 0, 0, 0 },
  },
  ["linenote"]={
   { 0 },
  },
  ["paragraph"]={
-  { 0 },
+  { 0, 0, 0, 0, 0 },
  },
  ["realpage"]={
-  { 2 },
+  { 4 },
  },
  ["subpage"]={
-  { 2 },
+  { 4 },
  },
  ["table"]={
-  { 0 },
+  { 0, 0, 0, 0, 0 },
  },
  ["textnote:note"]={
   { 0 },
  },
  ["userpage"]={
-  { 2 },
+  { 4 },
  },
 }
 
@@ -183,6 +261,71 @@ if not utilitydata.structures then utilitydata.structures = { } end
 if not utilitydata.structures.lists then utilitydata.structures.lists = { } end
 
 utilitydata.structures.lists.collected={
+ {
+  ["metadata"]=4,
+  ["numberdata"]=6,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=1,
+   ["realpage"]=1,
+   ["reference"]="content",
+   ["section"]=0,
+   ["x"]=32631697,
+   ["y"]=45809689,
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="\\headtext {content}",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["numberdata"]=8,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=2,
+   ["realpage"]=2,
+   ["section"]=1,
+   ["x"]=32631697,
+   ["y"]=45809689,
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Mussum ipsum",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["numberdata"]=9,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=8,
+   ["realpage"]=3,
+   ["section"]=2,
+   ["x"]=32631697,
+   ["y"]=45809689,
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Agora sim",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["numberdata"]=10,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=9,
+   ["realpage"]=4,
+   ["section"]=3,
+   ["x"]=32631697,
+   ["y"]=45809689,
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Non plus ultra",
+  },
+ },
 }
 
 if not utilitydata.structures then utilitydata.structures = { } end
@@ -192,15 +335,29 @@ utilitydata.structures.pages.collected={
  {
   ["block"]="bodypart",
   ["number"]=1,
-  ["numberdata"]=1,
-  ["prefixdata"]=2,
+  ["numberdata"]=11,
+  ["prefixdata"]=12,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=2,
-  ["numberdata"]=1,
-  ["prefixdata"]=2,
+  ["numberdata"]=11,
+  ["prefixdata"]=12,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=3,
+  ["numberdata"]=11,
+  ["prefixdata"]=12,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=4,
+  ["numberdata"]=11,
+  ["prefixdata"]=12,
   ["state"]="start",
  },
 }
@@ -239,59 +396,114 @@ utilitydata.structures.registers.collected={
     ["list"]={
      { "banana", false, false },
     },
-    ["metadata"]=3,
+    ["metadata"]=13,
     ["references"]={
-     ["internal"]=1,
-     ["realpage"]=1,
-     ["section"]=0,
+     ["internal"]=3,
+     ["realpage"]=3,
+     ["section"]=1,
     },
    },
    {
     ["list"]={
      { "maçã", false, false },
     },
-    ["metadata"]=3,
+    ["metadata"]=13,
     ["references"]={
-     ["internal"]=2,
-     ["realpage"]=1,
-     ["section"]=0,
+     ["internal"]=4,
+     ["realpage"]=3,
+     ["section"]=1,
     },
    },
    {
     ["list"]={
      { "banana!madura", false, false },
     },
-    ["metadata"]=3,
+    ["metadata"]=13,
     ["references"]={
-     ["internal"]=3,
-     ["realpage"]=1,
-     ["section"]=0,
+     ["internal"]=5,
+     ["realpage"]=3,
+     ["section"]=1,
     },
    },
    {
     ["list"]={
      { "banana!verde", false, false },
     },
-    ["metadata"]=3,
+    ["metadata"]=13,
     ["references"]={
-     ["internal"]=4,
-     ["realpage"]=1,
-     ["section"]=0,
+     ["internal"]=6,
+     ["realpage"]=3,
+     ["section"]=1,
     },
    },
    {
     ["list"]={
      { "maçã!vermelha", false, false },
     },
-    ["metadata"]=3,
+    ["metadata"]=13,
     ["references"]={
-     ["internal"]=5,
-     ["realpage"]=1,
-     ["section"]=0,
+     ["internal"]=7,
+     ["realpage"]=3,
+     ["section"]=1,
+    },
+   },
+   {
+    ["list"]={
+     { "banana", false, false },
+    },
+    ["metadata"]=13,
+    ["references"]={
+     ["internal"]=10,
+     ["realpage"]=4,
+     ["section"]=3,
+    },
+   },
+   {
+    ["list"]={
+     { "maçã", false, false },
+    },
+    ["metadata"]=13,
+    ["references"]={
+     ["internal"]=11,
+     ["realpage"]=4,
+     ["section"]=3,
+    },
+   },
+   {
+    ["list"]={
+     { "banana!madura", false, false },
+    },
+    ["metadata"]=13,
+    ["references"]={
+     ["internal"]=12,
+     ["realpage"]=4,
+     ["section"]=3,
+    },
+   },
+   {
+    ["list"]={
+     { "banana!verde", false, false },
+    },
+    ["metadata"]=13,
+    ["references"]={
+     ["internal"]=13,
+     ["realpage"]=4,
+     ["section"]=3,
+    },
+   },
+   {
+    ["list"]={
+     { "maçã!vermelha", false, false },
+    },
+    ["metadata"]=13,
+    ["references"]={
+     ["internal"]=14,
+     ["realpage"]=4,
+     ["section"]=3,
     },
    },
   },
-  ["metadata"]=4,
+  ["metadata"]=14,
  },
 }
 
@@ -326,6 +538,59 @@ utilitydata.job.embedded.collected={
 
 utilitydata.job.packed={
  ["index"]={
+  { 0, 1 },
+  { 0, 2 },
+  { 0, 3 },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="section",
+   ["level"]=2,
+   ["name"]="title",
+   ["nolist"]=true,
+  },
+  { 0, 0 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="en",
+   ["numbers"]=5,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["level"]=2,
+   ["name"]="chapter",
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="en",
+   ["numbers"]=1,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="en",
+   ["numbers"]=2,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["language"]="en",
+   ["numbers"]=3,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
   {
    ["conversionset"]="pagenumber",
   },
@@ -338,7 +603,7 @@ utilitydata.job.packed={
    ["catcodes"]=8,
    ["coding"]="tex",
    ["kind"]="entry",
-   ["level"]=0,
+   ["level"]=2,
    ["name"]="index",
   },
   {
