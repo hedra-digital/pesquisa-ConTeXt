@@ -1,0 +1,41 @@
+This is makeindex, version 2.15 [TeX Live 2022/dev] (kpathsea + Thai support).
+Scanning input file 014.tex...
+!! Input index error (file = 014.tex, line = 1):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 3):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 5):
+   -- Unknown index keyword \index.
+!! Input index error (file = 014.tex, line = 6):
+   -- Unknown index keyword \index.
+!! Input index error (file = 014.tex, line = 7):
+   -- Unknown index keyword \index.
+!! Input index error (file = 014.tex, line = 8):
+   -- Unknown index keyword \index.
+!! Input index error (file = 014.tex, line = 9):
+   -- Unknown index keyword \index.
+!! Input index error (file = 014.tex, line = 11):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 12):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 13):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 14):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 15):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 16):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 17):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 18):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 19):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 21):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 014.tex, line = 23):
+   -- Missing arguments -- need two (premature LFD).
+done (0 entries accepted, 18 rejected).
+Nothing written in 014.ind.
+Transcript written in 014.ilg.

@@ -1,0 +1,23 @@
+\setupinteraction [state=start]
+
+\setupcolors      [state=start]
+\setupurl         [color=blue]
+
+\setupinteraction [state=start,color=blue]
+\useURL
+  [setposition]
+  [http://source.contextgarden.net/tex/context/base/anch-pos.mkiv?search=from]
+  []
+  [\tex{setposition}]
+
+\useURL
+  [setuppositioning]
+  [http://wiki.contextgarden.net/Category:Commands]                                                                             
+  [setuppositioning]
+  [\tex{setuppositioning}]
+
+\starttext
+Lookup the source code of \from[setposition]!
+
+Or read about the syntax of \from[setuppositioning].  
+\stoptext

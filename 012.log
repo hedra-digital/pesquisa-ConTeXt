@@ -18,7 +18,24 @@ close source    > level 3, order 4, name '/usr/share/texmf/tex/context/base/mkiv
 fonts           > preloading latin modern fonts (second stage)
 fonts           > 'fallback modern-designsize rm 12pt' is loaded
 open source     > level 3, order 5, name '/usr/share/texmf/tex/context/sample/common/knuth.tex'
+
+Overfull \hbox (5.15723pt too wide) in paragraph at lines 6--11
+[]<2: lmroman12-regular @ 12.0pt> The sep-a-ra-tion of any of these four com-po-nents would
+
+\hbox(8.44336+2.44666)x284.52756, glue set - 1.0, direction TLT
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x20.67664, direction TLT
+.<2: lmroman12-regular @ 12.0pt> T
+.<2: lmroman12-regular @ 12.0pt> h
+.<2: lmroman12-regular @ 12.0pt> e
+.etc.
+
 close source    > level 3, order 5, name '/usr/share/texmf/tex/context/sample/common/knuth.tex'
+layouts         > gridmode, noflines: 34, textheight: 483.69687pt, textovershoot: 8.40717pt (maybe set number of lines instead)
 metapost        > initializing instance 'metafun:1' using format 'metafun' and method 'default'
 metapost        > loading 'metafun' as '/usr/share/texmf/metapost/context/base/mpiv/metafun.mpiv' using method 'default'
 metapost        > initializing number mode 'scaled'
@@ -38,10 +55,10 @@ system          > start used files
 
 system          >    1: filename=char-prv.lua filetype=tex format=tex foundname=/usr/share/texmf/tex/context/base/mkiv/char-prv.lua fullname=/usr/share/texmf/tex/context/base/mkiv/char-prv.lua usedmethod=database
 system          >    2: filename=cont-yes.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv fullname=/usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
-system          >    3: filename=publ-imp-default.lua filetype=scripts foundname=/usr/share/texmf/tex/context/base/mkiv/publ-imp-default.lua fullname=/usr/share/texmf/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+system          >    3: filename=publ-imp-default.lua filetype=lua foundname=/usr/share/texmf/tex/context/base/mkiv/publ-imp-default.lua fullname=/usr/share/texmf/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
 system          >    4: filename=cont-new.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv fullname=/usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
-system          >    5: filename=lang-exc.lua filetype=scripts foundname=/usr/share/texmf/tex/context/base/mkiv/lang-exc.lua fullname=/usr/share/texmf/tex/context/base/mkiv/lang-exc.lua usedmethod=database
-system          >    6: filename=lang-us.lua filetype=scripts foundname=/usr/share/texmf/tex/context/patterns/mkiv/lang-us.lua fullname=/usr/share/texmf/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+system          >    5: filename=lang-exc.lua filetype=lua foundname=/usr/share/texmf/tex/context/base/mkiv/lang-exc.lua fullname=/usr/share/texmf/tex/context/base/mkiv/lang-exc.lua usedmethod=database
+system          >    6: filename=lang-us.lua filetype=lua foundname=/usr/share/texmf/tex/context/patterns/mkiv/lang-us.lua fullname=/usr/share/texmf/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
 system          >    7: filename=/home/editorial/LATEX/pesquisa-ConTeXt/012.tex foundname=/home/editorial/LATEX/pesquisa-ConTeXt/012.tex fullname=/home/editorial/LATEX/pesquisa-ConTeXt/012.tex usedmethod=direct
 system          >    8: filename=lmmono10-regular filetype=otf format=otf foundname=/usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf fullname=/usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf usedmethod=database
 system          >    9: filename=page-run.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/page-run.mkiv fullname=/usr/share/texmf/tex/context/base/mkiv/page-run.mkiv usedmethod=database
@@ -77,10 +94,10 @@ system          > stop used files
 
 system          > start commandline options
 
-system          > currentrun="2"
+system          > currentrun="1"
 system          > fulljobname="./012.tex"
 system          > input="./012.tex"
-system          > kindofrun="2"
+system          > kindofrun="1"
 system          > maxnofruns="9"
 system          > texmfbinpath="/usr/bin"
 
@@ -102,25 +119,25 @@ modules         > stop used modules
 
 mkiv lua stats  > used config file: /usr/share/texmf/web2c/texmfcnf.lua;/usr/share/texlive/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: readable: '/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442' | readable+writable: '/home/editorial/.texlive2021/texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442'
-mkiv lua stats  > resource resolver: loadtime 0.115 seconds, 1 scans with scantime 0.000 seconds, 0 shared scans, 35 found files, scanned paths: /home/editorial/texmf
-mkiv lua stats  > stored bytecode data: 454 modules (0.279 sec), 96 tables (0.009 sec), 550 chunks (0.288 sec)
-mkiv lua stats  > traced context: maxstack: 1422, freed: 2, unreachable: 1420
-mkiv lua stats  > cleaned up reserved nodes: 61 nodes, 10 lists of 442
-mkiv lua stats  > node memory usage: 11 attribute, 4 attribute_list, 1 glue, 51 glue_spec, 3 kern, 2 penalty, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 67 calls
+mkiv lua stats  > resource resolver: loadtime 0.116 seconds, 1 scans with scantime 0.000 seconds, 0 shared scans, 35 found files, scanned paths: /home/editorial/texmf
+mkiv lua stats  > stored bytecode data: 454 modules (0.277 sec), 96 tables (0.009 sec), 550 chunks (0.285 sec)
+mkiv lua stats  > traced context: maxstack: 1423, freed: 3, unreachable: 1420
+mkiv lua stats  > cleaned up reserved nodes: 64 nodes, 11 lists of 442
+mkiv lua stats  > node memory usage: 13 attribute, 4 attribute_list, 1 glue, 51 glue_spec, 3 kern, 2 penalty, 2 temp, 2 user_defined
+mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 76 calls
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
 mkiv lua stats  > jobdata time: 0.001 seconds saving, 0.000 seconds loading
-mkiv lua stats  > callbacks: internal: 189, file: 314, direct: 3, late: 0, function 533, total: 1039 (1039 per page)
+mkiv lua stats  > callbacks: internal: 218, file: 324, direct: 3, late: 0, function 578, total: 1123 (1123 per page)
 mkiv lua stats  > randomizer: resumed with value 0.96435065940022
 mkiv lua stats  > result saved in file: 012.pdf, compresslevel 3, objectcompresslevel 1
 mkiv lua stats  > loaded patterns: en::1, load time: 0.000
 mkiv lua stats  > loaded fonts: 4 files: dejavusansmono.ttf, latinmodern-math.otf, lmmono10-regular.otf, lmroman12-regular.otf
 mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 9 instances, 3 shared in backend, 3 common vectors, 0 common hashes, load time 0.178 seconds 
-mkiv lua stats  > metapost: 0.001 seconds, loading: 0.012, execution: 0.001, n: 3, average: 0.005, instances: 1, luacalls: 10, memory: 2.744 M
+mkiv lua stats  > metapost: 0.002 seconds, loading: 0.014, execution: 0.001, n: 4, average: 0.004, instances: 1, luacalls: 16, memory: 2.745 M
 mkiv lua stats  > page group warning: transparencies are used but no pagecolormodel is set
 mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: usr
 mkiv lua stats  > used engine: luatex version: 1.14, functionality level: 7439, banner: this is luatex, version 1.14.0 (tex live 2022/dev/debian)
-mkiv lua stats  > used hash slots: 46676 of 65536 + 200000
-mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 158 MB, ctx: 158 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 0.519 seconds, 1 processed pages, 1 shipped pages, 1.927 pages/second
+mkiv lua stats  > used hash slots: 46684 of 65536 + 200000
+mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 157 MB, ctx: 157 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.537 seconds, 1 processed pages, 1 shipped pages, 1.862 pages/second
 
