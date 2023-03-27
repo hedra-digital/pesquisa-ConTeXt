@@ -21,3 +21,5 @@
 ```
 pandoc test.md -t context -o test.tex
 ```
+
+Ver também https://hackmd.io/1cfxEsUTTcC5dSTWjqzyYg?view
