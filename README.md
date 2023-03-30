@@ -15,6 +15,19 @@
 - [x] 012 Marca de cortes
 - [ ] 013 URLs
 
+```tex
+% First line of the document
+% Preamble area:
+% Containing the global configuration
+% commands for the document
+\starttext % The body of the document begins here
+...
+... % Document contents
+...
+\stoptext % End of the document
+```
+
+
 
 ## pandoc
 

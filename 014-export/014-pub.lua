@@ -1,0 +1,18 @@
+return {
+ ["author"]="John Doe",
+ ["firstpage"]="cat.jpeg",
+ ["htmlfiles"]={ "014-div.html" },
+ ["htmlroot"]="014-div.html",
+ ["identifier"]="e82ba222-4336-803a-ff6f-8883663fe331",
+ ["imagefile"]="styles/014-images.css",
+ ["imagepath"]="images",
+ ["images"]={},
+ ["language"]="en",
+ ["metadata"]={},
+ ["name"]="014",
+ ["stylepath"]="styles",
+ ["styles"]={ "014-defaults.css", "014-images.css", "014-styles.css" },
+ ["title"]="A nice book",
+ ["xhtmlfiles"]={ "014-tag.xhtml" },
+ ["xmlfiles"]={ "014-raw.xml" },
+}
