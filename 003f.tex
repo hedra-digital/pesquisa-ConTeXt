@@ -1,0 +1,29 @@
+% Colocar duas variáveis "autor" e "subtítulo" nas partes.
+
+\setupheadtext[content=Sumário]
+
+\define[1]\SectionTocEntry{%
+  \structurelistuservariable{author}\crlf%
+  #1\crlf% title
+  \structurelistuservariable{subtitle}}%
+
+
+\setuplist[section][
+  textcommand=\SectionTocEntry,]
+
+\starttext
+
+
+\completecontent
+
+
+
+\startsection[title={Whatever}][author={A. Uthor},subtitle={I’d like to say}]
+
+\input knuth
+
+\stopsection
+
+
+
+\stoptext
