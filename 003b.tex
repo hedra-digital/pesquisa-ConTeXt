@@ -1,28 +1,15 @@
-% Diagramação do ToC
+% Modificando bastante o ToC
 
 \setupindenting[yes,next,4ex]	  % Indentação
 
+\define[3]\SectionListEntry
+  {\par \leftaligned\bgroup
+     \hbox to 0em{\color[red]{\bfc #3}}%
+         %\hskip   0em
+         \vtop{\hsize\dimexpr\textwidth-3em\relax#2}
+  \egroup \par}
 
-\setupheadtext[content=Sumário]
-
-% turn off numbering of some levels
-\setuphead[chapter][number=yes]
-\setuphead[section][number=no]
-\setuphead[subsection][number=no]
-
-
-\setuplist 	[chapter]    [width=2em,margin=0em,margin=0em, style=bold]
-\setuplist  [section]    [width=2em,margin=2em]
-\setuplist  [subsection] [width=3em]
-
-% O que entra no sumário
-\setupcombinedlist[content]
-				  [list={chapter,section},
-						  alternative=c]    %dots
-
-
-\setupinterlinespace[15pt]
-
+\setuplist[{chapter,section,subsection}][alternative=command,command=\SectionListEntry]
 
 \starttext
 

@@ -1,0 +1,35 @@
+% Para entender a especificidade do "list" aplicado aos comandos 
+% que não numeram (colocar no sumário mas sem contar nos números
+% das seções)
+
+
+\setuphead[subject]
+  [incrementnumber=yes,  % keep track of the number (or list)
+   number=no]            % but don't show it
+
+% Set area in which number is placed: 
+% distance from margin to left edge of title
+% NB: MkIV may ignore `width` 
+%     for unnumbered entries, and may require 
+%     you to set `margin`, instead.
+\setuplist[section][width=2cm]
+\setuplist[subject][width=2cm]
+
+\setupcombinedlist[content][list={chapter,subject,subsubject,section,subsection}]
+
+\starttext
+
+  \placecontent
+
+  \page
+
+\chapter{One}
+\input knuth
+\section{Section numbered A}
+\input knuth
+\subject{Section unnumbered B}
+\input knuth
+\section{Section numbered C}
+\input knuth
+
+\stoptext

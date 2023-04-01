@@ -1,8 +1,0 @@
-return {
- ["filename"]="/home/editorial/LATEX/pesquisa-ConTeXt/002.tex",
- ["lastcontext"]="\nl.54 \\sstoptext\n              ",
- ["lastluaerror"]="?",
- ["lasttexerror"]="! Undefined control sequence",
- ["linenumber"]=54,
- ["offset"]=10,
-}
