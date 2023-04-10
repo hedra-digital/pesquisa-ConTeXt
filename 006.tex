@@ -1,0 +1,89 @@
+\setuppapersize[A4]
+
+
+\startsetups[footnote:interlinespace]
+  \setupinterlinespace[line=2ex]                           % Entrelinhas da nota
+\stopsetups
+
+%\setupnote[footnote][setups=footnote:interlinespace]
+
+\setupfootnotes[
+			%location=page, 
+			%conversion=numbers, 
+			rule=off 										% Tirar a linha
+			]  
+
+%\setupnotation
+%   [footnote]
+%   [
+    %alternative=serried,
+    %width=broad,
+    %distance=2.5em,
+    %display=yes
+%    ]
+
+% Extras
+% \setupnotation[footnote][way=bypage,numberconversion=set 2]   % Sinais especiais por página
+
+
+\starttext
+
+
+
+\placecontent
+
+\chapter{Justo risus\footnote{Nota no capítulo Justo risus}}
+
+Justo risus magnis et sagittis augue eget tempus arcu primis\footnote{facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra} facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra blandit montes accumsan platea dolor lobortis leo amet parturient torquent massa aliquam vivamus vulputate si condimentum sit ipsum quis commodo auctor tellus ac ligula sed ante aptent gravida inceptos lacinia iaculis nascetur metus pretium vestibulum habitasse litora odio lectus potenti id nisi sem dictum mus cursus consequat nec natoque convallis tortor proin mauris venenatis phasellus viverra scelerisque placerat class enim curabitur congue non conubia habitant penatibus curae volutpat
+Justo risus magnis et sagittis augue eget tempus arcu primis\footnote{facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra} facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra blandit montes accumsan platea dolor lobortis leo amet parturient torquent massa aliquam vivamus vulputate si condimentum sit ipsum quis commodo auctor tellus ac ligula sed ante aptent gravida inceptos lacinia iaculis nascetur metus pretium vestibulum habitasse litora odio lectus potenti id nisi sem dictum mus cursus consequat nec natoque convallis tortor proin mauris venenatis phasellus viverra scelerisque placerat class enim curabitur congue non conubia habitant penatibus curae volutpat
+Justo risus magnis et sagittis augue eget tempus arcu primis\footnote{facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra} facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra blandit montes accumsan platea dolor lobortis leo amet parturient torquent massa aliquam vivamus vulputate si condimentum sit ipsum quis commodo auctor tellus ac ligula sed ante aptent gravida inceptos lacinia iaculis nascetur metus pretium vestibulum habitasse litora odio lectus potenti id nisi sem dictum mus cursus consequat nec natoque convallis tortor proin mauris venenatis phasellus viverra scelerisque placerat class enim curabitur congue non conubia habitant penatibus curae volutpat
+Justo risus magnis et sagittis augue eget tempus arcu primis\footnote{facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean 
+pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra} facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra blandit montes accumsan platea dolor lobortis leo amet parturient torquent massa aliquam vivamus vulputate si condimentum sit ipsum quis commodo auctor tellus ac ligula sed ante aptent gravida inceptos lacinia iaculis nascetur metus pretium vestibulum habitasse litora odio lectus potenti id nisi sem dictum mus cursus consequat nec natoque convallis tortor proin mauris venenatis phasellus viverra scelerisque placerat class enim curabitur congue non conubia habitant penatibus curae volutpat
+
+
+\section{First: \tt{startlocalfootnotes}}
+
+Way to \ConTeXt\footnote{First footnote.} is painful.
+
+\section{Second}
+
+But \ConTeXt\ is amazing.\footnote{Second footnote}
+
+\placetable
+  {Complex Table\footnote{A table head footnote.}}
+  {\startlocalfootnotes
+   \placelegend
+     {\starttable[|l|l|]
+      \HL
+      \NC First Column \NC Second Column \NC \FR
+      \HL
+      \NC East\footnote{Footnote inside graphic.} \NC  North \NC \FR
+      \NC West         \NC   South          \NC \LR
+      \HL
+      \stoptable}
+     {\placelocalfootnotes}
+   \stoplocalfootnotes}
+
+
+\section{\tt{note} e \tt{footnotetext}}
+
+Nugue nota específica\note[notaX]\footnotetext[notaX]{Testes} eget tempus arcu primis\footnote{facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra} facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra blandit montes accumsan platea dolor lobortis leo amet parturient torquent massa aliquam vivamus vulputate
+
+\chapter{Pellentesque hac fermentum}
+Justo risus magnis et sagi ipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra blandit montes accumsan platea dolor lobortis leo amet parturient torquent massa aliquam vivamus vulputate si condimentum sit ipsum quis commodo auctor tellus ac ligula sed ante aptent gravida inceptos lacinia iaculis nascetur metus pretium vestibulum habitasse litora odio lectus potenti id nisi sem dictum mus cursus consequat nec natoque convallis tortor proin mauris venenatis phasellus viverra scelerisque placerat class enim curabitur congue non conubia habitant penatibus curae volutpat
+Justo risus magnis et sagittis augue eget tempus arcu primis\footnote{facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra} facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra blandit montes accumsan platea dolor lobortis leo amet parturient torquent massa aliquam vivamus vulputate si condimentum sit ipsum quis commodo auctor tellus ac ligula sed ante aptent gravida inceptos lacinia iaculis nascetur metus pretium vestibulum habitasse litora odio lectus potenti id nisi sem dictum mus cursus consequat nec natoque convallis tortor proin mauris venenatis phasellus viverra scelerisque placerat class enim curabitur congue non conubia habitant penatibus curae volutpat
+Justo risus magnis et sagittis augue eget tempus arcu primis\footnote{facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra} facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra blandit montes accumsan platea dolor lobortis leo amet parturient torquent massa aliquam vivamus vulputate si condimentum sit ipsum quis commodo auctor tellus ac ligula sed ante aptent gravida inceptos lacinia iaculis nascetur metus pretium vestibulum habitasse litora odio lectus potenti id nisi sem dictum mus cursus consequat nec natoque convallis tortor proin mauris venenatis phasellus viverra scelerisque placerat class enim curabitur congue non conubia habitant penatibus curae volutpat
+
+Justo risus magnis et sagittis augue eget tempus arcu primis\footnote{facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra} facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra blandit montes accumsan platea dolor lobortis leo amet parturient torquent massa aliquam vivamus vulputate si condimentum sit ipsum quis commodo auctor tellus ac ligula sed ante aptent gravida inceptos lacinia iaculis nascetur metus pretium vestibulum habitasse litora odio lectus potenti id nisi sem dictum mus cursus consequat nec natoque convallis tortor proin mauris venenatis phasellus viverra scelerisque placerat class enim curabitur congue non conubia habitant penatibus curae volutpat
+
+Justo risus magnis et sagittis augue eget tempus arcu primis\footnote{facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra} facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra blandit montes accumsan platea dolor lobortis leo amet parturient 
+
+
+\chapter{Torquent massa aliquam}
+
+Torquent massa aliquam vivamus vulputate si condimentum sit ipsum quis commodo auctor tellus ac ligula sed ante aptent gravida inceptos lacinia iaculis nascetur metus pretium vestibulum habitasse litora odio lectus potenti id nisi sem dictum mus cursus consequat nec natoque convallis tortor proin mauris venenatis phasellus viverra scelerisque placerat class enim curabitur congue non conubia habitant penatibus curae volutpat
+
+Justo risus magnis et sagittis augue eget tempus arcu primis\footnote{facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra} facilisis velit tincidunt himenaeos ridiculus est adipiscing rhoncus aenean pellentesque hac fermentum in laoreet nisl vel ut sodales fames maecenas nostra blandit montes accumsan platea dolor lobortis leo amet parturient torquent massa aliquam vivamus vulputate si condimentum sit ipsum quis commodo auctor tellus ac ligula sed ante aptent gravida inceptos lacinia iaculis nascetur metus pretium vestibulum habitasse litora odio lectus potenti id nisi sem dictum mus cursus consequat nec natoque convallis tortor proin mauris venenatis phasellus viverra scelerisque placerat class enim curabitur congue non conubia habitant penatibus curae volutpat
+
+
+\stoptext
