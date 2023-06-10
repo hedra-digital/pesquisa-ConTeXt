@@ -1,0 +1,22 @@
+\setuppapersize[A5][A4]
+
+\setupexternalfigures[location=default]
+\setupcaptions[location={right,low},prefix=yes,
+    style={\tfx\setupinterlinespace[line=10pt]}, 
+    headstyle=\rm, 
+    numberstopper={:},	
+	]
+
+\starttext
+
+
+\placefigure
+    {Oh caption, my caption!\crlf
+     (Apologies to Walt Whitman)}
+    {\externalfigure[cow][width=2cm]}
+
+\input linden
+
+
+\stoptext
+

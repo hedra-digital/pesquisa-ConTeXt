@@ -1,0 +1,8 @@
+return {
+ ["filename"]="/home/editorial/LATEX/pesquisa-ConTeXt/003e.tex",
+ ["lastluaerror"]="[ctxlua]:1: invalid escape sequence near '\"\\|'",
+ ["lasttexerror"]="?",
+ ["linenumber"]=54,
+ ["luaerrorline"]="1",
+ ["offset"]=10,
+}

@@ -1,0 +1,30 @@
+\useexternalfigure[image][example-image][width=0.5\textwidth]
+
+\starttext
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat, ipsum in interdum posuere, magna mi eleifend enim, a vestibulum orci tellus vel quam. \placefigure[here][fig:image]{A sample image}{\externalfigure[cow.png]}
+
+Sed suscipit magna at mauris fringilla, eu tincidunt tortor tincidunt. Integer nec orci vel massa efficitur tempor. Suspendisse potenti. Cras euismod, turpis eu tristique scelerisque, libero urna facilisis mauris, quis tincidunt augue sapien vel lectus.
+
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat, ipsum
+in interdum posuere, magna mi eleifend enim, a vestibulum orci tellus vel quam.
+\placefigure[left][]{}{\externalfigure[cow.png]} Sed
+suscipit magna at mauris fringilla, eu tincidunt tortor tincidunt. Integer nec
+orci vel massa efficitur tempor. Suspendisse potenti. Cras euismod, turpis eu
+tristique scelerisque, libero urna facilisis mauris, quis tincidunt augue
+sapien vel lectus.
+
+
+\setposition[figure]{center,none}
+\placefigure[]{}{\externalfigure[cow.png]}
+
+
+
+
+\input knuth
+
+
+\stoptext

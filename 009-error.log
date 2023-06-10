@@ -1,0 +1,8 @@
+return {
+ ["filename"]="/home/editorial/LATEX/pesquisa-ConTeXt/009.tex",
+ ["lastcontext"]="\nl.13 \\definecheckbox\n                   ",
+ ["lastluaerror"]="?",
+ ["lasttexerror"]="! Undefined control sequence",
+ ["linenumber"]=13,
+ ["offset"]=10,
+}

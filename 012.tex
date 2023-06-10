@@ -1,16 +1,22 @@
 \setuppapersize[A5][A4]
-\setuplayout[location={middle,middle},
-							 backspace=2cm,  
-	       			 topspace=2cm,
-               header=2cm,
-               footer=2cm,
-					marking=empty,
-				]
+
+\setuplayout[  backspace=2cm,  
+	       topspace=2cm,  
+               header=2cm,  
+               footer=2cm,  
+               location=middle,  
+               marking=on,  
+               cutspace=1cm,  
+               cutmark=yes,  
+               bleedoffset=1cm,  
+               trimoffset=1cm
+	     ]
 
 
-\showframe 				% mostrar o trimframe
-
+\setupindenting[yes,next,4ex]	  % Indentação
 
 \starttext
+\showlayout
 \input knuth
 \stoptext
+

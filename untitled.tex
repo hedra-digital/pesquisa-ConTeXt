@@ -1,0 +1,53 @@
+003e.tex
+% Modificando bastante o ToC
+
+\setupindenting[yes,next,4ex]	  % Indentação
+
+\define[3]\SectionListEntry
+  {\par \leftaligned\bgroup
+     \hbox to 0em{\color[red]{\bfc #3}}%
+         %\hskip   0em
+         \vtop{\hsize\dimexpr\textwidth-3em\relax#2}
+  \egroup \par}
+
+\setuplist[{chapter,section,subsection}][alternative=command,command=\SectionListEntry]
+
+\starttext
+
+
+%\placecontent
+\completecontent
+
+
+
+
+
+\chapter{Divisões}
+%\title{Capítulo não numerado e não incluído no sumário}
+
+\input knuth
+
+\section{A numbered section}
+
+\input knuth
+\subsubject{An unnumbered subsection}
+
+\input knuth
+
+\subsection{A numbered subsection}
+\input knuth
+
+
+\subject{An unnumbered section}
+\input knuth
+
+\subsection{A numbered subsection}
+\input knuth
+
+\subsubject{An unnumbered subsection}
+\input knuth
+
+\section{Another numbered section}
+\input knuth
+
+\stoptext

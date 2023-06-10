@@ -1,0 +1,8 @@
+return {
+ ["filename"]="/usr/share/texlive/texmf-dist/tex/latex/tools/x.tex",
+ ["lastcontext"]="\nl.38   \\batchmode \\errmessage{}\n                              \\csname @@end\\endcsname \\end",
+ ["lastluaerror"]="?",
+ ["lasttexerror"]="! ",
+ ["linenumber"]=38,
+ ["offset"]=10,
+}

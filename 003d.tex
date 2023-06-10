@@ -1,0 +1,62 @@
+\setupindenting[yes,next,4ex]	  % Indentação
+
+
+\setupheadtext[content=Sumário]
+
+% turn off numbering of some levels
+\setuphead[chapter][number=yes]
+\setuphead[section][number=no]
+\setuphead[subsection][number=no]
+
+
+\setuplist 	[chapter]    [width=2em,margin=0em,margin=0em, style=bold]
+\setuplist  [section]    [width=2em,margin=2em]
+\setuplist  [subsection] [width=3em]
+
+% O que entra no sumário
+\setupcombinedlist[content]
+				  [list={chapter,section},
+						  alternative=c]    %dots
+
+
+\setuppagenumbering[way=bychapter, left=A, chapternumber=no, numberseparator=/]
+
+\starttext
+
+
+%\placecontent
+\completecontent
+
+
+
+
+
+\chapter{Divisões}
+%\title{Capítulo não numerado e não incluído no sumário}
+
+\input knuth
+
+\section{A numbered section}
+
+\input knuth
+\subsubject{An unnumbered subsection}
+
+\input knuth
+
+\subsection{A numbered subsection}
+\input knuth
+
+
+\subject{An unnumbered section}
+\input knuth
+
+\subsection{A numbered subsection}
+\input knuth
+
+\subsubject{An unnumbered subsection}
+\input knuth
+
+\section{Another numbered section}
+\input knuth
+
+\stoptext

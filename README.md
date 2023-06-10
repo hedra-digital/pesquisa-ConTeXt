@@ -2,7 +2,7 @@
 
 
 - [x] 001 Tamanho, medidas, margens
-- [ ] 002 Fontes
+- [x] 002 Fontes, hiperlink
 - [ ] 003 Cores de texto
 - [ ] 004 Pincelada de tinta
 - [ ] 005 Posicionamento da imagem
@@ -13,6 +13,20 @@
 - [ ] 010 Box pontilhado em toda a página (ver p.12)
 - [ ] 011 Resposta do professor
 - [x] 012 Marca de cortes
+- [ ] 013 URLs
+
+```tex
+% First line of the document
+% Preamble area:
+% Containing the global configuration
+% commands for the document
+\starttext % The body of the document begins here
+...
+... % Document contents
+...
+\stoptext % End of the document
+```
+
 
 
 ## pandoc
@@ -20,3 +34,5 @@
 ```
 pandoc test.md -t context -o test.tex
 ```
+
+Ver também https://hackmd.io/1cfxEsUTTcC5dSTWjqzyYg?view
