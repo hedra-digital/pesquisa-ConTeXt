@@ -1,0 +1,11 @@
+# Fdb version 3
+["pdflatex"] 1681740688 "007.tex" "007.pdf" "007" 1681740688
+  "/etc/texmf/web2c/texmf.cnf" 1668283995 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1668284064 2799281 c5d9923cb90699d2f89d69027a5c637e ""
+  "007.aux" 1681740688 32 3985256e7290058c681f74d7a3565a19 ""
+  "007.tex" 1681483296 1942 80659b041a142b14bb21c0ab76e6b392 ""
+  (generated)
+  "007.log"
+  "007.pdf"
