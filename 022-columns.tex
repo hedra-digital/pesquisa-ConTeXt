@@ -1,0 +1,33 @@
+\setupbodyfont[dejavu,9pt]
+
+\setuphead[subject][
+    style=bold,
+    before={\blank[line]},
+    after={\blank[none]},
+]
+
+
+\setuplayout[
+    backspace=13mm,
+    width=middle,
+    topspace=13mm,
+    height=middle,
+    header=0mm,
+    footer=0mm,
+    grid=yes,
+]
+
+
+\setupalign[verytolerant,stretch]
+
+\starttext
+
+\startpagecolumns[n=2]
+    \dorecurse{10}{%
+        \subject[title={Foo \recurselevel}]
+        \samplefile{lorem}
+    }
+    \hpos{allendshere}{}
+\stoppagecolumns
+
+\stoptext
