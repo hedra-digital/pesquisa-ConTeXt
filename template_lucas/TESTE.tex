@@ -1,5 +1,5 @@
 \setuppapersize[width=205mm,height=275mm]
-\setuplayout[width=125mm, height=265mm, backspace=15mm, topspace=15mm]
+\setuplayout[grid=yes, width=125mm, height=265mm, backspace=15mm, topspace=15mm]
 
 \setuppagenumbering
   [alternative=doublesided, % Manchas espelhadas
@@ -15,15 +15,17 @@
 
 % Definindo que a marginnote apareça sempre na margem do corte
 \setupmargindata[inmargin]
-  [location=outer]
+  [width=50mm, align=middle, location=outer]
 
 \define[1]\mymargin
   {\inmargin{\framed[width=50mm, align=normal, frame=off]{#1}}}
 
 \starttext
+\inmargin{Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Paisis, filhis, espiritis santis.Quem manda na minha terra sou euzis!Quem manda na minha terra sou euzis!Si num tem leite então bota uma pinga aí cumpadi!Mé faiz elementum girarzis, nisi eros vermeio.Aenean aliquam molestie leo, vitae iaculis nisl.
+
+Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.Casamentiss faiz malandris se pirulitá.Quem num gosta di mim que vai caçá sua turmis!Quem num gosta di mé, boa gentis num é.}
 Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.Casamentiss faiz malandris se pirulitá.Quem num gosta di mim que vai caçá sua turmis!Quem num gosta di mé, boa gentis num é.
 
-\mymargin{Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.}
 
 Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Paisis, filhis, espiritis santis.Quem manda na minha terra sou euzis!
 
@@ -37,6 +39,10 @@ Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet 
 Quem manda na minha terra sou euzis!Si num tem leite então bota uma pinga aí cumpadi!Mé faiz elementum girarzis, nisi eros vermeio.Aenean aliquam molestie leo, vitae iaculis nisl.
 
 Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.Casamentiss faiz malandris se pirulitá.Quem num gosta di mim que vai caçá sua turmis!Quem num gosta di mé, boa gentis num é.
+
+\inmargin{Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Paisis, filhis, espiritis santis.Quem manda na minha terra sou euzis!Quem manda na minha terra sou euzis!Si num tem leite então bota uma pinga aí cumpadi!Mé faiz elementum girarzis, nisi eros vermeio.Aenean aliquam molestie leo, vitae iaculis nisl.
+
+Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.Casamentiss faiz malandris se pirulitá.Quem num gosta di mim que vai caçá sua turmis!Quem num gosta di mé, boa gentis num é.}
 
 Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Paisis, filhis, espiritis santis.Quem manda na minha terra sou euzis!
 
