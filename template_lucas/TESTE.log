@@ -18,289 +18,35 @@ close source    > level 3, order 4, name '/usr/share/texmf/tex/context/base/mkiv
 selectfont      > the requested font 'DINPro.ttf' has no files for the 'tf' alternative, Latin Modern is used instead.
 fonts           > preloading latin modern fonts (second stage)
 fonts           > 'fallback modern-designsize rm 12pt' is loaded
-
-Overfull \hbox (3.30008pt too wide) in paragraph at lines 41--42
-<2: lmroman12-regular @ 12.0pt> uma pinga aí cumpadi!Mé faiz el-e-men-tum gi-rarzis, nisi eros ver-meio.Ae-
-
-\hbox(8.57529+2.45865)x355.65944, glue set - 1.0, direction TLT
-.<2: lmroman12-regular @ 12.0pt> u
-.<2: lmroman12-regular @ 12.0pt> m
-.<2: lmroman12-regular @ 12.0pt> a
-.\glue(\spaceskip) 3.90985 plus 1.95493 minus 1.30328
-.<2: lmroman12-regular @ 12.0pt> p
-.etc.
-
 layouts         > gridmode, noflines: 45, textheight: 640.19214pt, textovershoot: 11.12202pt (maybe set number of lines instead)
 visualize       > enabled
 backend         > xmp > using file '/usr/share/texmf/tex/context/base/mkiv/lpdf-pdx.xml'
 pages           > flushing realpage 1, userpage 1, subpage 1
 
-Overfull \hbox (3.30008pt too wide) in paragraph at lines 55--56
-<2: lmroman12-regular @ 12.0pt> uma pinga aí cumpadi!Mé faiz el-e-men-tum gi-rarzis, nisi eros ver-meio.Ae-
+tex error       > tex error on line 41 in file /home/lenovo/HEDRA/LATEX/pesquisa-ConTeXt/template_lucas/TESTE.tex: ! Undefined control sequence
 
-\hbox(8.57529+2.45865)x355.65944, glue set - 1.0, direction TLT
-.<2: lmroman12-regular @ 12.0pt> u
-.<2: lmroman12-regular @ 12.0pt> m
-.<2: lmroman12-regular @ 12.0pt> a
-.\glue(\spaceskip) 3.90985 plus 1.95493 minus 1.30328
-.<2: lmroman12-regular @ 12.0pt> p
-.etc.
+l.41 \notemargin
+              {Texto ao lado da imagem 1}
 
-
-Overfull \hbox (3.30008pt too wide) in paragraph at lines 65--66
-<2: lmroman12-regular @ 12.0pt> uma pinga aí cumpadi!Mé faiz el-e-men-tum gi-rarzis, nisi eros ver-meio.Ae-
-
-\hbox(8.57529+2.45865)x355.65944, glue set - 1.0, direction TLT
-.<2: lmroman12-regular @ 12.0pt> u
-.<2: lmroman12-regular @ 12.0pt> m
-.<2: lmroman12-regular @ 12.0pt> a
-.\glue(\spaceskip) 3.90985 plus 1.95493 minus 1.30328
-.<2: lmroman12-regular @ 12.0pt> p
-.etc.
-
-pages           > flushing realpage 2, userpage 2, subpage 2
-
-Overfull \hbox (0.10812pt too wide) in paragraph at lines 73--73
- [][]
-
-\hbox(142.3719+4.17485)x142.26378, direction TLT
-.\glue(\leftskip) 0.0 plus 24.0
-.\localpar
-..\localinterlinepenalty=0
-..\localbrokenpenalty=0
-..\localleftbox=null
-..\localrightbox=null
-.\begindir TLT
-.\boundary=1
-.\hbox(10.73537+4.17485)x0.0, direction TLT
-.etc.
-
-
-Overfull \hbox (0.10812pt too wide) in paragraph at lines 73--73
- []
-
-\hbox(142.3719+0.0)x142.26378, direction TLT
-.\glue(\leftskip) 0.0 plus 24.0
-.\begindir TLT
-.\vbox(142.3719+0.0)x142.3719, direction TLT
-..\vbox(142.3719+0.0)x142.3719, direction TLT
-...\hbox(142.3719+0.0)x142.3719, direction TLT []
-.\enddir TLT
-.\glue(\rightskip) 0.0
-
-
-Overfull \hbox (0.10812pt too wide) in paragraph at lines 73--73
- []
-
-\hbox(142.3719+0.0)x142.26378, direction TLT
-.\glue(\leftskip) 0.0 plus 24.0
-.\begindir TLT
-.\vbox(142.3719+0.0)x142.3719, direction TLT
-..\vbox(142.3719+0.0)x142.3719, direction TLT
-...\hbox(142.3719+0.0)x142.3719, direction TLT []
-.\enddir TLT
-.\glue(\rightskip) 0.0
-
-
-Overfull \hbox (0.10812pt too wide) in paragraph at lines 73--73
- [][]
-
-\hbox(142.3719+4.17485)x142.26378, direction TLT
-.\glue(\leftskip) 0.0 plus 24.0
-.\begindir TLT
-.\vbox(142.3719+0.0)x142.3719, direction TLT
-..\vbox(142.3719+0.0)x142.3719, direction TLT
-...\hbox(142.3719+0.0)x142.3719, direction TLT []
-.\penalty 10000
-.\glue 0.0
-.etc.
-
-
-Overfull \hbox (3.30008pt too wide) in paragraph at lines 77--78
-<2: lmroman12-regular @ 12.0pt> uma pinga aí cumpadi!Mé faiz el-e-men-tum gi-rarzis, nisi eros ver-meio.Ae-
-
-\hbox(8.57529+2.45865)x355.65944, glue set - 1.0, direction TLT
-.<2: lmroman12-regular @ 12.0pt> u
-.<2: lmroman12-regular @ 12.0pt> m
-.<2: lmroman12-regular @ 12.0pt> a
-.\glue(\spaceskip) 3.90985 plus 1.95493 minus 1.30328
-.<2: lmroman12-regular @ 12.0pt> p
-.etc.
-
-
-Overfull \hbox (3.30008pt too wide) in paragraph at lines 81--82
-<2: lmroman12-regular @ 12.0pt> uma pinga aí cumpadi!Mé faiz el-e-men-tum gi-rarzis, nisi eros ver-meio.Ae-
-
-\hbox(8.57529+2.45865)x355.65944, glue set - 1.0, direction TLT
-.<2: lmroman12-regular @ 12.0pt> u
-.<2: lmroman12-regular @ 12.0pt> m
-.<2: lmroman12-regular @ 12.0pt> a
-.\glue(\spaceskip) 3.90985 plus 1.95493 minus 1.30328
-.<2: lmroman12-regular @ 12.0pt> p
-.etc.
-
-
-Overfull \hbox (3.30008pt too wide) in paragraph at lines 86--87
-<2: lmroman12-regular @ 12.0pt> uma pinga aí cumpadi!Mé faiz el-e-men-tum gi-rarzis, nisi eros ver-meio.Ae-
-
-\hbox(8.57529+2.45865)x355.65944, glue set - 1.0, direction TLT
-.<2: lmroman12-regular @ 12.0pt> u
-.<2: lmroman12-regular @ 12.0pt> m
-.<2: lmroman12-regular @ 12.0pt> a
-.\glue(\spaceskip) 3.90985 plus 1.95493 minus 1.30328
-.<2: lmroman12-regular @ 12.0pt> p
-.etc.
-
-
-Overfull \hbox (3.30008pt too wide) in paragraph at lines 90--91
-<2: lmroman12-regular @ 12.0pt> uma pinga aí cumpadi!Mé faiz el-e-men-tum gi-rarzis, nisi eros ver-meio.Ae-
-
-\hbox(8.57529+2.45865)x355.65944, glue set - 1.0, direction TLT
-.<2: lmroman12-regular @ 12.0pt> u
-.<2: lmroman12-regular @ 12.0pt> m
-.<2: lmroman12-regular @ 12.0pt> a
-.\glue(\spaceskip) 3.90985 plus 1.95493 minus 1.30328
-.<2: lmroman12-regular @ 12.0pt> p
-.etc.
-
-pages           > flushing realpage 3, userpage 3, subpage 3
-
-Overfull \hbox (3.30008pt too wide) in paragraph at lines 94--95
-<2: lmroman12-regular @ 12.0pt> uma pinga aí cumpadi!Mé faiz el-e-men-tum gi-rarzis, nisi eros ver-meio.Ae-
-
-\hbox(8.57529+2.45865)x355.65944, glue set - 1.0, direction TLT
-.<2: lmroman12-regular @ 12.0pt> u
-.<2: lmroman12-regular @ 12.0pt> m
-.<2: lmroman12-regular @ 12.0pt> a
-.\glue(\spaceskip) 3.90985 plus 1.95493 minus 1.30328
-.<2: lmroman12-regular @ 12.0pt> p
-.etc.
-
-
-Overfull \hbox (3.30008pt too wide) in paragraph at lines 98--99
-<2: lmroman12-regular @ 12.0pt> uma pinga aí cumpadi!Mé faiz el-e-men-tum gi-rarzis, nisi eros ver-meio.Ae-
-
-\hbox(8.57529+2.45865)x355.65944, glue set - 1.0, direction TLT
-.<2: lmroman12-regular @ 12.0pt> u
-.<2: lmroman12-regular @ 12.0pt> m
-.<2: lmroman12-regular @ 12.0pt> a
-.\glue(\spaceskip) 3.90985 plus 1.95493 minus 1.30328
-.<2: lmroman12-regular @ 12.0pt> p
-.etc.
-
-
-Overfull \hbox (3.30008pt too wide) in paragraph at lines 102--103
-<2: lmroman12-regular @ 12.0pt> uma pinga aí cumpadi!Mé faiz el-e-men-tum gi-rarzis, nisi eros ver-meio.Ae-
-
-\hbox(8.57529+2.45865)x355.65944, glue set - 1.0, direction TLT
-.<2: lmroman12-regular @ 12.0pt> u
-.<2: lmroman12-regular @ 12.0pt> m
-.<2: lmroman12-regular @ 12.0pt> a
-.\glue(\spaceskip) 3.90985 plus 1.95493 minus 1.30328
-.<2: lmroman12-regular @ 12.0pt> p
-.etc.
-
-
-Overfull \hbox (3.30008pt too wide) in paragraph at lines 106--107
-<2: lmroman12-regular @ 12.0pt> uma pinga aí cumpadi!Mé faiz el-e-men-tum gi-rarzis, nisi eros ver-meio.Ae-
-
-\hbox(8.57529+2.45865)x355.65944, glue set - 1.0, direction TLT
-.<2: lmroman12-regular @ 12.0pt> u
-.<2: lmroman12-regular @ 12.0pt> m
-.<2: lmroman12-regular @ 12.0pt> a
-.\glue(\spaceskip) 3.90985 plus 1.95493 minus 1.30328
-.<2: lmroman12-regular @ 12.0pt> p
-.etc.
-
-pages           > flushing realpage 4, userpage 4, subpage 4
-pages           > flushing realpage 5, userpage 5, subpage 5
-pages           > flushing realpage 6, userpage 6, subpage 6
-close source    > level 2, order 4, name '/home/lenovo/HEDRA/LATEX/pesquisa-ConTeXt/template_lucas/TESTE.tex'
-close source    > level 1, order 4, name '/usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv'
-
-system          > start used files
-
-system          > text: TESTE
-
-system          > stop used files
-
-
-system          > start used files
-
-system          >    1: filename=char-prv.lua filetype=tex format=tex foundname=/usr/share/texmf/tex/context/base/mkiv/char-prv.lua fullname=/usr/share/texmf/tex/context/base/mkiv/char-prv.lua usedmethod=database
-system          >    2: filename=cont-yes.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv fullname=/usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
-system          >    3: filename=publ-imp-default.lua filetype=lua foundname=/usr/share/texmf/tex/context/base/mkiv/publ-imp-default.lua fullname=/usr/share/texmf/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
-system          >    4: filename=cont-new.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv fullname=/usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
-system          >    5: filename=lang-exc.lua filetype=lua foundname=/usr/share/texmf/tex/context/base/mkiv/lang-exc.lua fullname=/usr/share/texmf/tex/context/base/mkiv/lang-exc.lua usedmethod=database
-system          >    6: filename=lang-us.lua filetype=lua foundname=/usr/share/texmf/tex/context/patterns/mkiv/lang-us.lua fullname=/usr/share/texmf/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
-system          >    7: filename=/home/lenovo/HEDRA/LATEX/pesquisa-ConTeXt/template_lucas/TESTE.tex foundname=/home/lenovo/HEDRA/LATEX/pesquisa-ConTeXt/template_lucas/TESTE.tex fullname=/home/lenovo/HEDRA/LATEX/pesquisa-ConTeXt/template_lucas/TESTE.tex usedmethod=direct
-system          >    8: filename=lmmono10-regular filetype=otf format=otf foundname=/usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf fullname=/usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf usedmethod=database
-system          >    9: filename=page-run.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/page-run.mkiv fullname=/usr/share/texmf/tex/context/base/mkiv/page-run.mkiv usedmethod=database
-system          >   10: filename=page-run.lua filetype=tex format=tex foundname=/usr/share/texmf/tex/context/base/mkiv/page-run.lua fullname=/usr/share/texmf/tex/context/base/mkiv/page-run.lua usedmethod=database
-system          >   11: filename=lm.lfg filetype=tex foundname=/usr/share/texmf/tex/context/fonts/mkiv/lm.lfg fullname=/usr/share/texmf/tex/context/fonts/mkiv/lm.lfg usedmethod=database
-system          >   12: filename=lmroman12-regular filetype=otf format=otf foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf fullname=/usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf usedmethod=database
-system          >   13: filename=latinmodern-math.otf filetype=opentypefonts foundname=/usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf fullname=/usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
-system          >   14: filename=lmroman12-bold filetype=otf format=otf foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf fullname=/usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf usedmethod=database
-system          >   15: filename=img2.png format=tex foundname=img2.png fullname=/home/lenovo/HEDRA/LATEX/pesquisa-ConTeXt/template_lucas/img2.png usedmethod=direct
-system          >   16: filename=lmmonoltcond10-regular.otf filetype=otf format=otf foundname=/usr/share/texmf/fonts/opentype/public/lm/lmmonoltcond10-regular.otf fullname=/usr/share/texmf/fonts/opentype/public/lm/lmmonoltcond10-regular.otf usedmethod=database
-system          >   17: filename=dejavusansmono filetype=ttf format=ttf foundname=/usr/share/texlive/texmf-dist/fonts/truetype/public/dejavu/DejaVuSansMono.ttf fullname=/usr/share/texlive/texmf-dist/fonts/truetype/public/dejavu/DejaVuSansMono.ttf usedmethod=database
-system          >   18: filename=lpdf-pdx.xml filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/lpdf-pdx.xml fullname=/usr/share/texmf/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
-system          >   19: filename=img1.png format=tex foundname=img1.png fullname=/home/lenovo/HEDRA/LATEX/pesquisa-ConTeXt/template_lucas/img1.png usedmethod=direct
-system          >   20: filename=img3.png format=tex foundname=img3.png fullname=/home/lenovo/HEDRA/LATEX/pesquisa-ConTeXt/template_lucas/img3.png usedmethod=direct
-
-system          > stop used files
-
-
-system          > start commandline options
-
-system          > currentrun="2"
-system          > fulljobname="./TESTE.tex"
-system          > input="./TESTE.tex"
-system          > kindofrun="2"
-system          > maxnofruns="9"
-system          > texmfbinpath="/usr/bin"
-
-system          > stop commandline options
-
-
-system          > start commandline files
-
-system          >    1: ./TESTE.tex
-
-system          > stop commandline files
-
-
-modules         > start used modules
-
-
-modules         > stop used modules
-
-
-mkiv lua stats  > used config file: /usr/share/texmf/web2c/texmfcnf.lua;/usr/share/texlive/texmf-dist/web2c/texmfcnf.lua
-mkiv lua stats  > used cache path: readable: '/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442' | readable+writable: '/home/lenovo/.texlive2021/texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442'
-mkiv lua stats  > resource resolver: loadtime 0.122 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 20 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 454 modules (0.309 sec), 96 tables (0.012 sec), 550 chunks (0.321 sec)
-mkiv lua stats  > traced context: maxstack: 1420, freed: 0, unreachable: 1420
-mkiv lua stats  > cleaned up reserved nodes: 64 nodes, 9 lists of 442
-mkiv lua stats  > node memory usage: 21 attribute, 6 attribute_list, 1 glue, 51 glue_spec, 3 kern, 2 pdf_literal, 2 penalty, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 8 unique task lists, 11 instances (re)created, 1411 calls
-mkiv lua stats  > driver time: 0.173 seconds 
-mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
-mkiv lua stats  > jobdata time: 0.002 seconds saving, 0.001 seconds loading
-mkiv lua stats  > callbacks: internal: 3056, file: 392, direct: 14, late: 59, function 1409, total: 4930 (822 per page)
-mkiv lua stats  > randomizer: resumed with value 0.20051321014762
-mkiv lua stats  > positions: 36 collected, 36 regular, 0 special
-mkiv lua stats  > result saved in file: TESTE.pdf, compresslevel 3, objectcompresslevel 1
-mkiv lua stats  > loaded patterns: en::1, load time: 0.000
-mkiv lua stats  > margin data: 3 entries, 0 pending
-mkiv lua stats  > loaded fonts: 6 files: dejavusansmono.ttf, latinmodern-math.otf, lmmono10-regular.otf, lmmonoltcond10-regular.otf, lmroman12-bold.otf, lmroman12-regular.otf
-mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 11 instances, 3 shared in backend, 3 common vectors, 0 common hashes, load time 0.218 seconds 
-mkiv lua stats  > visualization time: 0.003 seconds
-mkiv lua stats  > graphics processing time: 0.003 seconds including tex, 6 processed images, 3 unique asked, 0 bad names
-mkiv lua stats  > page group warning: transparencies are used but no pagecolormodel is set
-mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: usr
-mkiv lua stats  > used engine: luatex version: 1.14, functionality level: 7439, banner: this is luatex, version 1.14.0 (tex live 2022/dev/debian)
-mkiv lua stats  > used hash slots: 47180 of 65536 + 200000
-mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 155 MB, ctx: 155 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 0.875 seconds, 6 processed pages, 6 shipped pages, 6.857 pages/second
+31     
+32     Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Paisis, filhis, espiritis santis.Quem manda na minha terra sou euzis!
+33     
+34     
+35     \externalfigure[img2.png][width=\textwidth]
+36     
+37     \page
+38     
+39     %\inmargin{Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Paisis, filhis, espiritis santis.Quem manda na minha terra sou euzis!Quem manda na minha terra sou euzis!Si num tem leite então bota uma pinga aí cumpadi!Mé faiz elementum girarzis, nisi eros vermeio.Aenean aliquam molestie leo, vitae iaculis nisl.}
+40     
+41 >>  \notemargin{Texto ao lado da imagem 1}
+42     \startcombination[2*2]
+43     {\externalfigure[img2.png][width=.5\textwidth]}{}
+44     {\externalfigure[img2.png][width=.5\textwidth]}{}
+45     {\externalfigure[img2.png][width=.5\textwidth]}{}
+46     {\externalfigure[img2.png][width=.5\textwidth]}{}
+47     \stopcombination
+48     
+49     Mé faiz elementum girarzis, nisi eros vermeio.Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.
+50     
+51     Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.
 
