@@ -1,0 +1,21 @@
+
+
+\definestructurehead[myheader][section][
+  before={\blank[big]},
+  after={\blank[medium]},
+  style=\bfc, % Estilo de fonte para o cabeçalho
+]
+
+\setuphead[myheader][
+  number=no, % Não exibir número de seção
+]
+
+\starttext
+
+\startmyheader[title={Meu Cabeçalho}]
+  Conteúdo do cabeçalho
+\stopmyheader
+
+Seu conteúdo de texto aqui...
+
+\stoptext

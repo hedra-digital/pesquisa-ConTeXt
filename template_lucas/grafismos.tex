@@ -1,0 +1,76 @@
+\usemodule[tikz]
+\setuppapersize[width=205mm,height=275mm]
+\setuplayout[grid=yes, width=125mm, height=265mm, backspace=15mm, topspace=15mm]
+
+%\showboxes
+%\showgrid
+
+\setuppagenumbering
+  [alternative=doublesided, % Manchas espelhadas
+   location=bottom,         % Localização dos números de página
+   location={header,right}, % Localização do cabeçalho
+   style=normal]            % Estilo dos números de página
+
+% Definindo o estilo do capítulo
+\definefontfamily [myfont] [sanserif] [DINPro.ttf]
+\definefontsize [myfontsize] [14pt]
+\setuphead [chapter] [style=\myfontsize\myfont]
+
+
+% Definindo que a marginnote apareça sempre na margem do corte
+\setupmargindata[inmargin]
+  [width=50mm, align=middle, location=outer]
+
+\define[1]\mymargin
+  {\inmargin{\framed[width=50mm, align=normal, frame=off]{#1}}}
+
+
+\setupfootertexts[][-- \pagenumber --][]
+
+\starttext
+
+\section [sdcsd]
+
+\starttikzpicture[remember picture,overlay]
+  \shade[right color=red!80] (current page.south east) rectangle ++(-3cm, \paperheight);
+\stoptikzpicture
+
+Montes finibus curae leo vitae imperdiet cubilia fringilla tempor sociosqu
+consectetuer cursus nulla aliquet turpis odio potenti dictum non facilisi
+quis per dolor urna vestibulum sagittis porttitor taciti porta molestie
+convallis ac scelerisque senectus praesent semper ridiculus luctus nostra
+pharetra mus ornare hendrerit faucibus tristique nisi letius donec laoreet
+ullamcorper justo tellus neque arcu vehicula pretium auctor placerat habitant
+nam risus id nisl consectetur iaculis dignissim tempus lacus sem mauris eget
+sit quisque torquent posuere duis ut in dui mollis massa dictumst sodales
+facilisis velit fames etiam eu condimentum parturient a fusce rhoncus nunc
+primis efficitur integer si lacinia. Montes finibus curae leo vitae imperdiet cubilia fringilla tempor sociosqu
+consectetuer cursus nulla aliquet turpis odio potenti dictum non facilisi
+quis per dolor urna vestibulum sagittis porttitor taciti porta molestie
+convallis ac scelerisque senectus praesent semper ridiculus luctus nostra
+pharetra mus ornare hendrerit faucibus tristique nisi letius donec laoreet
+ullamcorper justo tellus neque arcu vehicula pretium auctor placerat habitant
+nam risus id nisl consectetur iaculis dignissim tempus lacus sem mauris eget
+sit quisque torquent posuere duis ut in dui mollis massa dictumst sodales
+facilisis velit fames etiam eu condimentum parturient a fusce rhoncus nunc
+primis efficitur integer si lacinia. Montes finibus curae leo vitae imperdiet cubilia fringilla tempor sociosqu
+consectetuer cursus nulla aliquet turpis odio potenti dictum non facilisi
+quis per dolor urna vestibulum sagittis porttitor taciti porta molestie
+convallis ac scelerisque senectus praesent semper ridiculus luctus nostra
+pharetra mus ornare hendrerit faucibus tristique nisi letius donec laoreet
+ullamcorper justo tellus neque arcu vehicula pretium auctor placerat habitant
+nam risus id nisl consectetur iaculis dignissim tempus lacus sem mauris eget
+sit quisque torquent posuere duis ut in dui mollis massa dictumst sodales
+facilisis velit fames etiam eu condimentum parturient a fusce rhoncus nunc
+primis efficitur integer si lacinia. Montes finibus curae leo vitae imperdiet cubilia fringilla tempor sociosqu
+consectetuer cursus nulla aliquet turpis odio potenti dictum non facilisi
+quis per dolor urna vestibulum sagittis porttitor taciti porta molestie
+convallis ac scelerisque senectus praesent semper ridiculus luctus nostra
+pharetra mus ornare hendrerit faucibus tristique nisi letius donec laoreet
+ullamcorper justo tellus neque arcu vehicula pretium auctor placerat habitant
+nam risus id nisl consectetur iaculis dignissim tempus lacus sem mauris eget
+sit quisque torquent posuere duis ut in dui mollis massa dictumst sodales
+facilisis velit fames etiam eu condimentum parturient a fusce rhoncus nunc
+primis efficitur integer si lacinia.
+
+\stoptext

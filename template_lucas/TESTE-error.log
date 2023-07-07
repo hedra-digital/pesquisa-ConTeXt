@@ -1,8 +1,0 @@
-return {
- ["filename"]="/home/lenovo/HEDRA/LATEX/pesquisa-ConTeXt/template_lucas/TESTE.tex",
- ["lastcontext"]="\nl.41 \\notemargin\n               {Texto ao lado da imagem 1}",
- ["lastluaerror"]="?",
- ["lasttexerror"]="! Undefined control sequence",
- ["linenumber"]=41,
- ["offset"]=10,
-}

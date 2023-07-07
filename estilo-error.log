@@ -1,0 +1,8 @@
+return {
+ ["filename"]="/home/editorial/LATEX/pesquisa-ConTeXt/estilo.tex",
+ ["lastcontext"]="\nl.1 \\definestructurehead\n                       [myheader][section][",
+ ["lastluaerror"]="?",
+ ["lasttexerror"]="! Undefined control sequence",
+ ["linenumber"]=1,
+ ["offset"]=10,
+}
