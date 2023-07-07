@@ -1,0 +1,8 @@
+return {
+ ["filename"]="/home/editorial/LATEX/pesquisa-ConTeXt/template_lucas/TESTE.tex",
+ ["lastcontext"]="\n\\144>chapter:style ->\\myfontsize \n                 \\myfont \n\\useheadstyleparameter #1->\\edef \\currentstyleparameter {\\headparameter {#1}\n                                                        }\\ifx \\currentstyleparameter \\empty \\else \\dousecurrentstyleparameter \\fi \n\\strc_rendering_place_head_text ...set_local_snapping {\\headparameter \\c!internalgrid }\\doresetstructureheadnumbercontent \\useheadstyleparameter \\c!style \n                                                                                                                             \\setinlineheadreferenceattributes \\strc_rendering_inject_text }\\fi \\strc_rendering_stop_placement \n\\strc_sectioning_handle ...on \\empty \\let \\getheadsyncs \\theheadsynchronization \\let \\getheadtitle \\fullheadtitle \\strc_rendering_place_head_text \n                                                                                                                             \\dostoptagged \\strc_sectioning_after_yes \\else \\ifconditional \\c_strc_sectioning_hidden \\strc_sectioning_register {#1}{#2}...\nl.96 \\title {Quem manda na minha terra sou euzis}\n                                                ",
+ ["lastluaerror"]="?",
+ ["lasttexerror"]="! Undefined control sequence",
+ ["linenumber"]=96,
+ ["offset"]=10,
+}

@@ -1,0 +1,43 @@
+% Common Imports
+\usemodule[ipsum]
+
+% Basic Document Setup
+\mainlanguage[en]
+\setuppapersize[A4]
+
+% Margins
+\setuplayout[
+  backspace=13mm, width=middle,
+  topspace=13mm, height=middle,
+  header=0mm, footer=0mm]
+
+% Page Columns
+\startuseMPgraphic{verticalrule}
+  if CurrentColumn < 3 :
+    draw rightboundary OverlayBox shifted (4mm,0);
+    setbounds currentpicture to OverlayBox enlarged 2.5mm;
+  fi
+\stopuseMPgraphic
+
+\defineoverlay
+  [verticalrule]
+  [\useMPgraphic{verticalrule}]
+
+\startpagecolumns[n=3,background=verticalrule]
+
+% Dummy Text
+\starttext
+\setupalign[tolerant,stretch,hanging,hz]
+\ipsum
+\ipsum
+
+\ipsum
+\ipsum
+
+\ipsum
+
+\ipsum
+\ipsum
+
+\ipsum
+\stoptext
