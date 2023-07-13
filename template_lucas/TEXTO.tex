@@ -1,0 +1,292 @@
+\usemodule[tikz]
+\setuppapersize[width=205mm,height=275mm]
+\setuplayout[grid=yes, width=125mm, height=265mm, backspace=15mm, topspace=15mm]
+
+\setuppagenumbering
+  [alternative=doublesided, % Manchas espelhadas
+   location=bottom,         % Localização dos números de página
+   location={header,right}, % Localização do cabeçalho
+   style=normal]            % Estilo dos números de página
+
+\usemodule [setups]
+\definefontfamily [din][sans] [DIN]
+                  [tf=file:DINPro.ttf,
+                   it=file:DINPro-Italic.ttf,
+                   bf=file:DINPro-Bold.ttf,
+                   bi=file:DINPro-BoldItalic.ttf]
+
+\definefont[tiny][name:DINPro*default at 6pt]
+
+
+% Definindo que a marginnote apareça sempre na margem do corte
+\setupmargindata[inmargin]
+  [style=\tiny, width=50mm, align=middle, location=outer]
+
+\define[1]\mymargin
+  {\inmargin{\framed[width=50mm, align=normal, frame=off]{#1}}}
+
+% Define o espaçamento entrelinhas
+%\setupinterlinespace[line=5pt]
+
+% Ativa a indentação inicial e define o valor
+\setupindenting[yes, 3ex]
+
+% Define itemize personalizado com o item como []
+\definesymbol[boxitem][{[\hskip .5em]}] 
+\defineitemgroup [boxitemize]
+\setupitemgroup  [boxitemize] [symbol=boxitem]
+
+
+
+%\part{1º ANO -- FAMÍLIAS E SOCIEDADE}
+\starttext
+\setupbodyfont [din,sans,12pt] 
+
+
+\title{Apresentação}
+
+\subject{NESTE VOLUME}
+
+A PROPOSTA É ABORDAR AS DIFERENTES CONFIGURAÇÕES DAS FAMÍLIAS, AS
+RELAÇÕES SOCIAIS E AS PESSOAS IDOSAS NA SOCIEDADE, TRABALHANDO-SE COM A
+TEMÁTICA DA DIVERSIDADE, DO PRECONCEITO E DAS FORMAS DE COMBATÊ-LO, BEM
+COMO COM HÁBITOS DE VIDA SAUDÁVEL E CONVIVÊNCIA RESPEITOSA. POR MEIO DA
+PROBLEMATIZAÇÃO DA REALIDADE E DA INTEGRAÇÃO DAS HABILIDADES E DAS
+COMPETÊNCIAS CURRICULARES, BUSCA-SE CONTEXTUALIZAR OS DIFERENTES TEMAS,
+DE MODO A POSSIBILITAR A CONSTRUÇÃO SIGNIFICATIVA DA APRENDIZAGEM.
+CONHECIMENTOS E REFLEXÕES COMO ESSES TÊM O POTENCIAL DE CONTRIBUIR PARA
+MUDANÇAS DE ATITUDE E DE LEVAR AS PESSOAS A PENSAREM E AGIREM DE FORMA
+HUMANA, RESPEITOSA E MAIS POSITIVA.
+
+\subject{MENSAGEM DA AUTORA}
+
+%\textbf{\textless INSERIR FOTO DA ROSELAINE, A MESMA AUTORA DO TBNSI.\textgreater{}}
+
+COMO PEDAGOGA, PSICOPEDAGOGA E MÃE, COLABORAR COM ESTA COLEÇÃO
+SIGNIFICA, ALÉM DE UMA HONRA, UMA OPORTUNIDADE GRANDIOSA DE CONTRIBUIR
+COM A AMPLIAÇÃO DE UM REPERTÓRIO FUNDAMENTAL PARA A FORMAÇÃO HUMANA E
+INTEGRAL DE NOSSAS CRIANÇAS. EM SALA DE AULA, NA ASSESSORIA
+INSTITUCIONAL, NO MESTRADO EM EDUCAÇÃO E SAÚDE E EM DIVERSOS PROJETOS
+NOS QUAIS ATUEI, TIVE OPORTUNIDADE DE IDENTIFICAR NA PRÁTICA A URGÊNCIA
+E A IMPORTÂNCIA DE TEMAS COMO ESSES SEREM ABORDADOS EM DIVERSOS
+MOMENTOS, POR DIFERENTES ÁREAS DO CONHECIMENTO E DESDE A MAIS TENRA
+IDADE. QUE TENHAMOS ÊXITO NA SUPERAÇÃO DE CONCEPÇÕES ULTRAPASSADAS E NA
+CONSTRUÇÃO DE UM CONHECIMENTO MAIS SISTÊMICO, CONTEMPORÂNEO, DIVERSO E
+COLETIVO.
+
+\subject{ESTRUTURA DO LIVRO}
+
+A COLEÇÃO TRAVESSIA ESTÁ DIVIDIDA EM 9 VOLUMES, E CADA VOLUME ESTÁ
+VOLTADO PARA UM ANO ESPECÍFICO DO ENSINO FUNDAMENTAL, CONTENDO PELO
+MENOS UM TEMA TRANSVERSAL CONTEMPORÂNEO, ENTRE OS TREZE PRINCIPAIS QUE
+SÃO PROPOSTOS PELA BASE NACIONAL COMUM CURRICULAR (BNCC). CADA VOLUME
+CONTA COM ESTES ELEMENTOS:
+
+%\textbf{\textless Compor a dupla usando miniaturas das páginas com os elementos do projeto editorial, apresentando cada um com um título e um descritivo (como o que consta no arquivo do projeto).\textgreater{}}
+
+\title{CAPÍTULO 1 -- AS FAMÍLIAS}
+
+%\includegraphics[width=2.6842in,height=4.02609in]{media/image1.jpeg}
+%\textbf{https://br.freepik.com/fotos-gratis/bebe-negro-passando-tempo-com-o-pai\_29011835.htm\#query=black\%20family\&position=5\&from\_view=search\&track=ais}
+
+\startitemize[packed]
+\item O QUE A IMAGEM DESTA PÁGINA REPRESENTA?
+
+\item VOCÊ CONSIDERA QUE ESTA IMAGEM REPRESENTA UMA FAMÍLIA?
+
+\item TODAS AS FAMÍLIAS SÃO IGUAIS?
+
+\item ESSA FORMA DE FAMÍLIA SE PARECE COM A DA SUA?
+\stopitemize
+
+\subject{O QUE É UMA FAMÍLIA?}
+
+\inmargin{{\bf(EF15LP09)} Expressar-se em situações de intercâmbio oral com
+clareza, preocupando-se em ser compreendido pelo interlocutor e usando a
+palavra com tom de voz audível, boa articulação e ritmo adequado.
+
+{\bf(EF01HI01)} Identificar aspectos do seu crescimento por meio do
+registro das lembranças particulares ou de lembranças dos membros de sua
+família e/ou de sua comunidade.}
+
+FAMÍLIA É UM GRUPO DE PESSOAS QUE POSSUI GRAU DE PARENTESCO OU LAÇO
+AFETIVO. EM ALGUNS CASOS, ESSAS PESSOAS CONVIVEM EM UMA MESMA CASA. EM
+OUTROS, NÃO.
+
+TODA CRIANÇA TEM DIREITO A TER UMA FAMÍLIA PARA AMÁ-LA E PROTEGÊ-LA. NAS
+FAMÍLIAS, É IMPORTANTE QUE EXISTA AMOR E RESPEITO ENTRE TODOS.
+
+EXISTEM MUITOS TIPOS DE FAMÍLIA, E CADA UMA DELAS É DE UM JEITO. ELAS
+PODEM SER GRANDES, COM MUITAS PESSOAS, OU PEQUENAS, COMO NA IMAGEM DE
+ABERTURA DO CAPÍTULO, EM QUE VEMOS UM PAI SOLO COM SUA FILHA.
+
+COMO É A SUA FAMÍLIA?
+
+%\textbf{\textless abre seção Papel e caneta \textgreater{}}
+
+NUMA FOLHA DE SULFITE, FAÇA UM DESENHO DA SUA FAMÍLIA. EM SEGUIDA,
+MOSTRE-O PARA A TURMA E CONTE COMO ELA É E QUEM FAZ PARTE DELA.
+
+%\textbf{\textless fecha seção Papel e caneta \textgreater{}}
+
+\subject{A FAMÍLIA DA GENTE}
+
+CADA FAMÍLIA TEM UMA HISTÓRIA E UM JEITO DE SE RELACIONAR. TODAS ELAS
+TÊM MEMÓRIAS SOBRE MOMENTOS GOSTOSOS, RECEITAS FAVORITAS E VIAGENS QUE
+DESFRUTARAM EM GRUPOS, POR EXEMPLO.
+
+VOCÊ CONTOU SOBRE SUA FAMÍLIA E CONHECEU UM POUCO SOBRE A FAMÍLIA DE
+SEUS COLEGAS. AGORA, IMAGINE QUE CADA FAMÍLIA É COMO SE FOSSE UMA
+ÁRVORE. OS BISAVÓS, POR TEREM NASCIDO ANTES E SEREM DE GERAÇÕES MAIS
+ANTIGAS, SÃO COMO AS RAÍZES DESSA ÁRVORE.
+
+\inmargin{Peça aos alunos que mostrem suas produções e instigue-os a falarem sobre
+suas famílias e dizerem quem faz parte delas. Ajude-os a perceber que as
+famílias são diferentes e que são formadas por pessoas não apenas com
+vínculos de sangue, mas também com vínculos de afeto.
+
+
+%\textbf{\textless fecha boxe Palavra-chave\textgreater{}}
+
+Relembre a atividade anterior realizada pelos alunos. Peça a ajuda deles
+para se recordar do momento em que falaram sobre sua família e
+conheceram as famílias dos colegas. Questione se as famílias que
+conheceram eram todas iguais. Em seguida, peça que contem o que as
+diferenciava. Esteja atento para favorecer a compreensão e o respeito
+das crianças sobre os diferentes tipos de família. Reforce que cada uma
+tem sua própria história e que todas as famílias merecem respeito. Esses
+questionamentos valorizam a história de cada um e proporcionam uma
+compreensão de identidade individual e coletiva. Aproveite para
+perguntar se eles sabem quem é a pessoa mais velha da família e a mais
+nova e os convide a fazer sua própria árvore genealógica.
+
+%\textbf{\textless abre seção InvestigAÇÃO \textgreater{}}
+}
+
+OS AVÓS SÃO COMO O TRONCO: DELES VIERAM A MÃE, O PAI, AS TIAS OU OS
+TIOS. NA REPRESENTAÇÃO DA ÁRVORE, ESSAS PESSOAS SERIAM OS GALHOS.
+
+
+COM A UNIÃO ENTRE PESSOAS QUE SE CASAM OU PASSAM A VIVER JUNTAS, AS
+ÁRVORES FAMILIARES TENDEM A CRESCER E OS GALHOS SE ENCHEM AINDA MAIS.
+
+AS CRIANÇAS, NESSA ÁRVORE, SERIAM OS GRAVETOS, QUE UM DIA VÃO CRESCER E
+SE TRANSFORMAR EM NOVOS GALHOS.
+
+AS ÁRVORES FAMILIARES TAMBÉM PODEM SER CHAMADAS DE {\bf ÁRVORES GENEALÓGICAS}.
+
+%\textbf{\textless Ricardo: ilustrar para este espaço um exemplo de árvore genealógica no esquema descrito no texto acima, com as gerações até os bisavós.\textgreater{}}
+
+%\textbf{\textless abre boxe Palavra-chave\textgreater{}}
+
+ÁRVORE GENEALÓGICA É UMA IMAGEM QUE REPRESENTA AS PESSOAS QUE TIVERAM
+PARTICIPAÇÃO NA EXISTÊNCIA OU NA FAMÍLIA DE ALGUÉM.
+
+ASSIM COMO CADA FAMÍLIA É DE UM JEITO, CADA ÁRVORE TAMBÉM É DIFERENTE DA
+OUTRA. EXISTEM ÁRVORES COM POUCOS GALHOS, ASSIM COMO EXISTEM FAMÍLIAS
+COM POUCOS INTEGRANTES. OUTRAS ÁRVORES PODEM SER MAIORES, ASSIM COMO AS
+FAMÍLIAS QUE TÊM MUITAS PESSOAS.
+
+FAÇA UMA PESQUISA JUNTO À SUA FAMÍLIA E, USANDO UMA CARTOLINA PARA FAZER
+O ESQUEMA, CONSTRUA SUA PRÓPRIA ÁRVORE GENEALÓGICA. UMA SUGESTÃO
+INTERESSANTE É COLAR FOTOS DO MAIOR NÚMERO POSSÍVEL DE PARENTES NOS
+ESPAÇOS DEDICADOS A ESSAS PESSOAS NA ÁRVORE.
+
+SERÁ QUE NA SUA TURMA HÁ FAMÍLIAS MUITO DIFERENTES? SIGA A ORIENTAÇÃO DO
+PROFESSOR E REÚNA-SE EM GRUPO PARA CONHECER DIFERENTES ÁRVORES
+GENEALÓGICAS E APRENDER MAIS SOBRE AS FAMÍLIAS DE SEUS COLEGAS.
+APROVEITE PARA TAMBÉM COMPARTILHAR SUAS DESCOBERTAS SOBRE A SUA FAMÍLIA.
+
+%\textbf{\textless fecha seção InvestigAÇÃO \textgreater{}}
+
+\subject{POR QUE A FAMÍLIA É IMPORTANTE?}
+
+A FAMÍLIA É COMPOSTA DAS PESSOAS COM QUEM VOCÊ TEM SUAS PRIMEIRAS
+INTERAÇÕES E APRENDIZAGENS. A FAMÍLIA DEVE CUIDAR DE VOCÊ, ALIMENTAR
+VOCÊ E MANTER VOCÊ SEGURO E PROTEGIDO.
+
+AS PESSOAS DA FAMÍLIA SÃO QUEM GERALMENTE ENSINA OS HÁBITOS DE VIDA
+DIÁRIA, COMO COMER E TOMAR BANHO, COMPORTAR-SE E TER BOAS MANEIRAS.
+ESSAS PESSOAS SÃO IMPORTANTES PARA O CRESCIMENTO E PARA A FORMAÇÃO DAS
+CRIANÇAS.
+
+O QUE SUA FAMÍLIA ENSINOU A VOCÊ?
+
+\subject{ATIVIDADES}
+
+\inmargin{{\bf(EF02LP14)}~Planejar e produzir pequenos relatos de observação
+de processos, de fatos, de experiências pessoais, mantendo as
+características do gênero, considerando a situação comunicativa e o
+tema/assunto do texto.
+
+Construir a árvore genealógica favorece a compreensão da criança sobre
+sua família e a ajuda a entender de onde ela vem. Conhecer nossa
+linhagem e ter oportunidade de dialogar sobre nossos ancestrais é
+importante para a construção de nossa identidade. Aproveite a proposta e
+dialogue sobre esses pontos com os alunos. Como desdobramento da
+atividade, proponha a formação de grupos para que as crianças falem
+sobre suas árvores genealógicas e compartilhem suas descobertas com os
+colegas. Incentive-os a mostrar a árvore e a contar sobre os integrantes
+da família que aparecem nela. Pergunte quem ajudou a construir a árvore
+e como foi esse momento.}
+
+CONVERSE COM SUA TURMA E, COM A AJUDA DO PROFESSOR, RESPONDA ÀS QUESTÕES
+A SEGUIR.
+
+\startitemize[n]
+\item O QUE É UMA FAMÍLIA?
+
+\noindent\underbar{Família é um grupo de pessoas que possui grau de parentesco ou laço
+afetivo.}
+
+\item QUEM PODE FAZER PARTE DE UMA FAMÍLIA?
+
+\noindent\underbar{A família pode ser constituída por pessoas com vínculo de parentesco ou
+de laços afetivos. Relembre à turma que cada um tem sua família e sua
+história e que, mesmo que a família do outro seja diferente, todas
+merecem respeito.}
+
+\item TODAS AS FAMÍLIAS SÃO IGUAIS? POR QUÊ?
+
+\noindent\underbar{Cada família é única; por isso, todas são diferentes. Retome a atividade
+da árvore genealógica e chame atenção para o fato de que o que
+diferencia as famílias pode ser a quantidade de integrantes ou o fato de
+conviverem na mesma casa ou em casas diferentes, além da forma como cada
+uma delas vive e se organiza.}
+
+\item A FAMÍLIA É IMPORTANTE? POR QUÊ?
+
+\noindent\underbar{Ajude os alunos a perceber a importância da família para seu crescimento
+e sua formação. Comente que a família é quem ensina as primeiras
+aprendizagens, cuida, alimenta e mantém as crianças seguras e
+protegidas.}
+
+\item MARQUE COM UM X AQUILO QUE CORRESPONDE AO QUE VOCÊ JÁ APRENDEU COM
+SUA FAMÍLIA.
+
+\startboxitemize
+\item ESCOVAR OS DENTES.
+
+\item AJUDAR UM AMIGO.
+
+\item FAZER SERVIÇOS DOMÉSTICOS, COMO ARRUMAR A CAMA OU TIRAR O PRATO DA MESA AO TERMINAR DE COMER.
+
+\item SER GENTIL COM AS PESSOAS.
+
+\item ARRUMAR SUA MOCHILA.
+
+\item PREPARAR UM ALIMENTO.
+
+\item TOMAR BANHO SEM AJUDA.
+
+\item PEDIR AJUDA QUANDO NECESSÁRIO.
+\stopboxitemize
+
+\inmargin{Oriente a realização da atividade de forma coletiva. Leia o enunciado e
+as alternativas com os alunos e peça que vão marcando aquelas que
+correspondem às aprendizagens que tiveram com sua família. Conhecer o
+que os alunos já sabem fazer sozinhos ajuda a compreender seu nível de
+autonomia para a realização das atividades. Isso tem uma influência
+importante na aprendizagem e pode trazer algumas ideias de como mediar
+esse processo de forma cada vez mais adequada.}
+\stopitemize

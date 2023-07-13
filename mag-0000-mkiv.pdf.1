@@ -1,0 +1,186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML lang="EN">
+    <HEAD>
+        <TITLE>SourceBrowser</TITLE>
+        <style type="text/css"><!--
+        body {
+          margin:0px; 
+          padding:0px;
+          font-family:sans-serif;
+        } 
+
+        div.head { 
+            /*      top  right bottom left  */
+            margin-left: 20px; 
+            position: -webkit-sticky; /* Safari */
+              position: sticky;
+              top: 10px;
+              float: left;
+        }
+        .menu { 
+          padding:5px;
+        }
+        div.file {
+            margin-left: 30%;
+            width:66%;             
+        }
+        div.source { 
+          background-color: #f9f9f9;
+          padding:5px; 
+          border: 1px dashed #2f6fab;
+          margin: 10px;
+        }
+        
+        div.fileinfo { 
+          /*      top  right bottom left  */
+          margin: 15px 10px 15px 0px; 
+          height: 30px;
+          padding: 5px;
+          font-weight: bold;
+          font-size: 150%;
+        }
+        span.moddate {
+            margin-left: 20px;
+            font-weight: normal;
+            font-size: 50%;
+        }
+
+        div.contextversion { 
+          font-size: 90%;
+          margin-bottom: 10px;
+        }
+
+        div.navigation { 
+          background:silver; 
+          padding:5px;
+          border:1px solid black; 
+          width:100%; 
+          /*      top  right bottom left  */
+          margin: 10px 10px 10px 10px; 
+          
+        } 
+
+        div.navigation  ul { 
+          list-style-type:none;
+          margin-top:0px;
+          margin-left:5px;
+          margin-bottom:2px;
+          padding:1px;
+        }
+
+        div.navigation li { 
+          padding:0;
+          margin:1;
+        }
+
+        div.source table { 
+            background-color: transparent; 
+        }
+
+        pre {
+          /*  padding: 1em; */
+          background-color: transparent; 
+          color: Black;
+        }
+        span.highlight    { background-color:yellow; }
+
+        h1 { font-size: 150%; }
+        .linenr { 
+            display: inline-block ; 
+            font-weight: normal ; 
+            width: 3em ; 
+            margin-right: 2em ; 
+            padding-right: .25em ; 
+            text-align: right ; 
+            background-color: #C7C7C7 ; 
+            color: black;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        a:link    { color: #36b; text-decoration: none;}
+        a:visited { color: #36b; text-decoration: none;}
+        a:hover   { color: #36b; text-decoration: none;}
+        a:active  { color: #36b; text-decoration: none;} 
+        --></style>
+
+        
+    </HEAD>
+    <BODY>
+        <DIV class="head">
+            <div class="menu"><H1>Source Browser <a href="https://wiki.contextgarden.net/SourceBrowser/doc" target=_blank>?</a></H1>
+                <FORM METHOD="get" ENCTYPE="application/x-www-form-urlencoded">
+                    <INPUT name="search" size="20" type="text" value="" maxlength="150">
+                    <INPUT type="submit" value="search">
+                
+                <br/><br/>Optional search indexes:
+                <br/>&nbsp; &nbsp; <INPUT name="comments"   type="checkbox" value="yes" >Comments
+                <INPUT name="docs"       type="checkbox" value="yes" >Docs
+                <INPUT name="mkii"       type="checkbox" value="yes" >MkII
+                <INPUT name="data"       type="checkbox" value="yes" >Data
+                <br/><INPUT name="wholewords" type="checkbox" value="yes" >Whole words only
+                <br/><INPUT name="pat"        type="checkbox" value="1"   >Lua string pattern matches
+                </FORM>
+           </div>
+        <div class="navigation">
+            <ul><span class="contextversion">2021.10.28 10:19 MkIV<br /></span></ul>
+            
+<ul>
+<li><a href="/colors">colors</a></li>
+<li><a href="/context">context</a></li>
+<li><a href="/doc">doc</a></li>
+<ul>
+<li><a href="/doc/context">context</a></li>
+<ul>
+<li><a href="/doc/context/documents">documents</a></li>
+<ul>
+<li><a href="/doc/context/documents/general">general</a></li>
+<ul>
+<li><a href="/doc/context/documents/general/fonts">fonts</a></li>
+<li><a href="/doc/context/documents/general/leaflets">leaflets</a></li>
+<li><a href="/doc/context/documents/general/magazines">magazines</a></li>
+<ul>
+<li><a href="/doc/context/documents/general/magazines/mag-0000-mkiv.pdf">mag-0000-mkiv.pdf</a></li>
+<li><a href="/doc/context/documents/general/magazines/mag-0002-mkiv.pdf">mag-0002-mkiv.pdf</a></li>
+<li><a href="/doc/context/documents/general/magazines/mag-0006-mkiv.pdf">mag-0006-mkiv.pdf</a></li>
+<li><a href="/doc/context/documents/general/magazines/mag-0007-mkiv.pdf">mag-0007-mkiv.pdf</a></li>
+<li><a href="/doc/context/documents/general/magazines/mag-0010-mkiv.pdf">mag-0010-mkiv.pdf</a></li>
+<li><a href="/doc/context/documents/general/magazines/mag-1101-mkiv.pdf">mag-1101-mkiv.pdf</a></li>
+<li><a href="/doc/context/documents/general/magazines/mag-1102-mkiv.pdf">mag-1102-mkiv.pdf</a></li>
+<li><a href="/doc/context/documents/general/magazines/mag-1103-mkiv.pdf">mag-1103-mkiv.pdf</a></li>
+<li><a href="/doc/context/documents/general/magazines/mag-1104-mkiv.pdf">mag-1104-mkiv.pdf</a></li>
+<li><a href="/doc/context/documents/general/magazines/mag-1105-mkiv.pdf">mag-1105-mkiv.pdf</a></li>
+
+</ul><li><a href="/doc/context/documents/general/manuals">manuals</a></li>
+<li><a href="/doc/context/documents/general/qrcs">qrcs</a></li>
+
+</ul>
+</ul><li><a href="/doc/context/examples">examples</a></li>
+<li><a href="/doc/context/presentations">presentations</a></li>
+<li><a href="/doc/context/scripts">scripts</a></li>
+<li><a href="/doc/context/sources">sources</a></li>
+
+</ul><li><a href="/doc/fonts">fonts</a></li>
+
+</ul><li><a href="/fonts">fonts</a></li>
+<li><a href="/metapost">metapost</a></li>
+<li><a href="/scripts">scripts</a></li>
+<li><a href="/source">source</a></li>
+<li><a href="/tex">tex</a></li>
+<li><a href="/web2c">web2c</a></li>
+
+</ul>
+
+        </div>
+        </DIV>
+        <div class="file">
+          <div class="fileinfo"><a href="https://source.contextgarden.net/doc/context/documents/general/magazines/mag-0000-mkiv.pdf?dl=1">mag-0000-mkiv.pdf</a> /<span class="moddate">size: 32 Kb &nbsp;&nbsp; last modification: 2020-07-01 14:35</span></div>
+           <div class="source">Not viewable, sorry.</div>
+        </div>
+    </BODY>
+</HTML>
+
+

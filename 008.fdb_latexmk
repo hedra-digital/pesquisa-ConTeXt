@@ -1,0 +1,12 @@
+# Fdb version 3
+["pdflatex"] 1681742390 "008.tex" "008.pdf" "008" 1681742391
+  "/etc/texmf/web2c/texmf.cnf" 1668283995 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
+  "/usr/share/texmf/tex/context/sample/common/knuth.tex" 1492643055 705 a36d803420693986927fc10125f6506e ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1668284064 2799281 c5d9923cb90699d2f89d69027a5c637e ""
+  "008.aux" 1681742390 32 3985256e7290058c681f74d7a3565a19 ""
+  "008.tex" 1681742390 97 7ebd48e58bd447d641cfe5b33a8f3b20 ""
+  (generated)
+  "008.log"
+  "008.pdf"

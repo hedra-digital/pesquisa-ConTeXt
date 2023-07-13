@@ -1,0 +1,87 @@
+% https://tex.stackexchange.com/questions/241920/hint-for-title-page-layout-in-context
+
+% To visualize the page areas
+% Needs to be placed on the top, because it resets the page backgrounds
+
+
+\showframe
+
+% Layout for regular pages
+\setuplayout
+  [
+    topspace=1cm,
+    backspace=1.5cm, 
+    leftmargin=1cm,
+    width=middle,
+    height=middle,
+    bottomspace=1cm,
+    header=2\lineheight,
+    headerdistance=2\lineheight,
+    footer=2\lineheight,
+  ]
+
+\definemeasure[marginspace][0.4\paperwidth]
+\definemeasure[marginwidth][0.35\paperwidth]
+
+% Different layout for the title page:
+\definelayout
+  [1]
+  [
+    topspace=6\lineheight,
+    header=\zeropoint,
+    backspace=\measure{marginspace},
+    leftmargin=\measure{marginwidth},
+    cutspace=1.5cm,
+    rightmargin=1cm,
+  ]
+
+
+\definelayer[titlelayer]
+\definelayer[marginlayer]
+\definelayer[footerlayer]
+
+\setupbackgrounds[text][leftmargin][background=marginlayer]
+\setupbackgrounds[footer][leftmargin][background=footerlayer]
+\setupbackgrounds[text][background=titlelayer]
+
+
+% Dummy text and figures
+\usemodule[visual]
+\useMPlibrary[dum]
+
+
+% To make it easier to show the output on TeX.SX
+\setuppapersize[A4][A3,landscape]
+\setuparranging[2SIDE]
+
+
+\starttext
+
+\setlayer[marginlayer]
+    {\externalfigure[marginimage]
+                    [width=\measure{marginwidth}, height=12\lineheight]}
+
+\setlayer[footerlayer]
+    {\externalfigure[footerimage]
+                    [width=\measure{marginwidth}, height=2\lineheight]}
+
+\setlayer[titlelayer]
+         [
+           x=-\dimexpr(\measure{marginwidth}+\leftmargindistance)\relax,
+           y=-4\lineheight,
+         ] 
+    {\externalfigure[titleimage]
+                    [
+                      width=\dimexpr(\measure{marginwidth}+\leftmargindistance+\textwidth)\relax, 
+                      height=3\lineheight,
+                    ]}
+
+\startsimplecolumns
+  \dorecurse{3}{\fakewords{120}{120}\par}
+\stopsimplecolumns
+
+\page
+
+\dorecurse{5}{\fakewords{120}{120}\par}
+
+\stoptext

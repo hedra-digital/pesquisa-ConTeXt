@@ -1,0 +1,31 @@
+\defineframed
+  [BleedFrame]
+  [    height=200pt,
+        width=100pt,
+        align=middle,
+        strut=no,
+   framecolor=red,
+          top=\vskip 0pt plus 0pt minus 1 filll\relax\nointerlineskip,
+       bottom=\vskip 0in plus 1filll minus 1filll\relax,
+       offset=0in]
+
+\startbuffer[content:dofit]
+    \startframed[BleedFrame]
+        \blackrule[width=50pt,height=100pt,color=green]
+    \stopframed
+\stopbuffer
+
+\startbuffer[content:nofit]
+    \startframed[BleedFrame]
+        \blackrule[width=50pt,height=250pt,color=green]
+    \stopframed
+\stopbuffer
+
+\starttext
+
+\startcombination[nx=2]
+  {\getbuffer[content:dofit]}{}
+  {\getbuffer[content:nofit]}{}
+\stopcombination
+
+\stoptext

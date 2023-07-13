@@ -2,25 +2,21 @@
 
 
 \startsetups[footnote:interlinespace]
-  \setupinterlinespace[line=2ex]                           % Entrelinhas da nota
+  \setupinterlinespace[line=3ex]                           % Entrelinhas da nota
 \stopsetups
+\setupnote[footnote][setups=footnote:interlinespace]
 
-%\setupnote[footnote][setups=footnote:interlinespace]
+\setupnote
+   [footnote]
+   [paragraph=yes]
 
-\setupfootnotes[
-			%location=page, 
-			%conversion=numbers, 
-			rule=off 										% Tirar a linha
-			]  
+\setupnotation
+   [footnote]
+   [alternative=serried,
+    width=broad,
+    distance=.5em,
+    display=no]
 
-%\setupnotation
-%   [footnote]
-%   [
-    %alternative=serried,
-    %width=broad,
-    %distance=2.5em,
-    %display=yes
-%    ]
 
 % Extras
 % \setupnotation[footnote][way=bypage,numberconversion=set 2]   % Sinais especiais por página

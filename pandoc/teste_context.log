@@ -1,0 +1,103 @@
+open source     > level 1, order 1, name '/usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv'
+system          > 
+system          > ConTeXt  ver: 2021.03.05 19:11 MKIV  fmt: 2022.11.12  int: english/english
+system          > 
+system          > 'cont-new.mkiv' loaded
+open source     > level 2, order 2, name '/usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv'
+system          > beware: some patches loaded from cont-new.mkiv
+close source    > level 2, order 2, name '/usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv'
+system          > files > jobname 'teste_context', input './teste_context', result 'teste_context'
+fonts           > latin modern fonts are not preloaded
+languages       > language 'en' is active
+open source     > level 2, order 3, name '/home/editorial/LATEX/pesquisa-ConTeXt/pandoc/teste_context.tex'
+structure       > sectioning > section @ level 3 : 0.0.1 -> Chapter
+fonts           > beware: no fonts are loaded yet, using 'lm mono' in box
+structure       > sectioning > subsection @ level 4 : 0.0.1.1 -> Section
+setup           > error in line 1, namespace 'xtable', key 'head'
+setup           > error in line 7, namespace 'xtable', key 'body'
+setup           > error in line 17, namespace 'xtable', key 'foot'
+setup           > error in line 1, namespace 'xtable', key 'head'
+setup           > error in line 7, namespace 'xtable', key 'body'
+setup           > error in line 17, namespace 'xtable', key 'foot'
+setup           > error in line 1, namespace 'xtable', key 'head'
+setup           > error in line 7, namespace 'xtable', key 'body'
+setup           > error in line 17, namespace 'xtable', key 'foot'
+floatblocks     > '1' placed (here)
+close source    > level 2, order 3, name '/home/editorial/LATEX/pesquisa-ConTeXt/pandoc/teste_context.tex'
+system          > invalid \starttext ... \stoptext structure
+backend         > xmp > using file '/usr/share/texmf/tex/context/base/mkiv/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1, subpage 1
+close source    > level 1, order 3, name '/usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv'
+
+system          > start used files
+
+system          > text: teste_context
+
+system          > stop used files
+
+
+system          > start used files
+
+system          >    1: filename=char-prv.lua filetype=tex format=tex foundname=/usr/share/texmf/tex/context/base/mkiv/char-prv.lua fullname=/usr/share/texmf/tex/context/base/mkiv/char-prv.lua usedmethod=database
+system          >    2: filename=cont-yes.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv fullname=/usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
+system          >    3: filename=publ-imp-default.lua filetype=lua foundname=/usr/share/texmf/tex/context/base/mkiv/publ-imp-default.lua fullname=/usr/share/texmf/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+system          >    4: filename=cont-new.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv fullname=/usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
+system          >    5: filename=lang-exc.lua filetype=lua foundname=/usr/share/texmf/tex/context/base/mkiv/lang-exc.lua fullname=/usr/share/texmf/tex/context/base/mkiv/lang-exc.lua usedmethod=database
+system          >    6: filename=lang-us.lua filetype=lua foundname=/usr/share/texmf/tex/context/patterns/mkiv/lang-us.lua fullname=/usr/share/texmf/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+system          >    7: filename=/home/editorial/LATEX/pesquisa-ConTeXt/pandoc/teste_context.tex foundname=/home/editorial/LATEX/pesquisa-ConTeXt/pandoc/teste_context.tex fullname=/home/editorial/LATEX/pesquisa-ConTeXt/pandoc/teste_context.tex usedmethod=direct
+system          >    8: filename=lmmono10-regular filetype=otf format=otf foundname=/usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf fullname=/usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf usedmethod=database
+system          >    9: filename=pdftex.map filetype=map format=map foundname=/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map fullname=/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map usedmethod=database
+system          >   10: filename=lpdf-pdx.xml filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/lpdf-pdx.xml fullname=/usr/share/texmf/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
+
+system          > stop used files
+
+
+system          > start commandline options
+
+system          > currentrun="1"
+system          > fulljobname="./teste_context.tex"
+system          > input="./teste_context.tex"
+system          > kindofrun="1"
+system          > maxnofruns="9"
+system          > texmfbinpath="/usr/bin"
+
+system          > stop commandline options
+
+
+system          > start commandline files
+
+system          >    1: ./teste_context.tex
+
+system          > stop commandline files
+
+
+modules         > start used modules
+
+
+modules         > stop used modules
+
+
+mkiv lua stats  > used config file: /usr/share/texmf/web2c/texmfcnf.lua;/usr/share/texlive/texmf-dist/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path: readable+writable: '/home/editorial/.texlive2021/texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442'
+mkiv lua stats  > resource resolver: loadtime 0.177 seconds, 1 scans with scantime 0.001 seconds, 0 shared scans, 10 found files, scanned paths: /home/editorial/texmf
+mkiv lua stats  > stored bytecode data: 454 modules (0.395 sec), 96 tables (0.012 sec), 550 chunks (0.406 sec)
+mkiv lua stats  > traced context: maxstack: 1420, freed: 0, unreachable: 1420
+mkiv lua stats  > cleaned up reserved nodes: 58 nodes, 9 lists of 442
+mkiv lua stats  > node memory usage: 14 attribute, 4 attribute_list, 1 glue, 52 glue_spec, 3 kern, 2 penalty, 2 temp, 2 user_defined
+mkiv lua stats  > node list callback tasks: 8 unique task lists, 8 instances (re)created, 316 calls
+mkiv lua stats  > driver time: 0.087 seconds 
+mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
+mkiv lua stats  > jobdata time: 0.001 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: internal: 2018, file: 222, direct: 4, late: 3, function 979, total: 3226 (3226 per page)
+mkiv lua stats  > randomizer: resumed with value 0.50848595425487
+mkiv lua stats  > result saved in file: teste_context.pdf, compresslevel 3, objectcompresslevel 1
+mkiv lua stats  > loaded patterns: en::1, load time: 0.000
+mkiv lua stats  > loaded fonts: 1 files: lmmono10-regular.otf
+mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 1 instances, load time 0.027 seconds 
+mkiv lua stats  > graphics processing time: 0.002 seconds including tex, 1 processed images, 1 unique asked, 1 bad names
+mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: usr
+mkiv lua stats  > used engine: luatex version: 1.14, functionality level: 7439, banner: this is luatex, version 1.14.0 (tex live 2022/dev/debian)
+mkiv lua stats  > used hash slots: 44850 of 65536 + 200000
+mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 121 MB, ctx: 121 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.589 seconds, 1 processed pages, 1 shipped pages, 1.698 pages/second
+

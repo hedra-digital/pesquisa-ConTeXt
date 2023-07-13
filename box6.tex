@@ -1,0 +1,23 @@
+%\startuseMPcode
+%  path p ; p = fullcircle scaled 2cm;
+%  draw p withcolor .8white;
+%  fill p withcolor .8white;
+%  draw p withcolor .5black withpen pencircle scaled 2pt;
+%\stopuseMPcode
+\usemodule[tikz]
+\usetikzlibrary[shapes]
+\usetikzlibrary[trees]
+
+\starttext
+
+\starttikzpicture
+  \node[draw, shape=circle, minimum size=2cm] at (0,0) {Circle};
+  \node[draw, shape=rectangle, minimum width=2cm, minimum height=1cm] at (3,0) {Rectangle};
+  \node[draw, shape=diamond, minimum size=2cm] at (6,0) {AAAA};
+\stoptikzpicture
+
+\stoptext
+
+
+
+

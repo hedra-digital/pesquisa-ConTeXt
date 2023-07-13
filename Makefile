@@ -1,2 +1,2 @@
 all:
-	context  006.tex --result=TESTE.pdf --purgeall --usemodule=tcolorbox && evince TESTE.pdf &
+	context  $(file).tex --purgeall --usemodule=tcolorbox && evince $(file).pdf &
