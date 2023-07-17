@@ -1,0 +1,15 @@
+return {
+ ["htmlfiles"]={ "myfile-project-div.html" },
+ ["htmlroot"]="myfile-project-div.html",
+ ["identifier"]="837218a7-48a3-b78b-8f4e-a69019344948",
+ ["imagefile"]="styles/myfile-project-images.css",
+ ["imagepath"]="images",
+ ["images"]={},
+ ["language"]="en",
+ ["metadata"]={},
+ ["name"]="myfile-project",
+ ["stylepath"]="styles",
+ ["styles"]={ "myfile-project-defaults.css", "myfile-project-images.css", "myfile-project-styles.css" },
+ ["xhtmlfiles"]={ "myfile-project-tag.xhtml" },
+ ["xmlfiles"]={ "myfile-project-raw.xml" },
+}

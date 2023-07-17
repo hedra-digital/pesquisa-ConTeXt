@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!--
+
+    input filename   : myfile-project
+    processing date  : 2023-07-13 03:10:53-03:00
+    context version  : 2021.03.05 19:11
+    exporter version : 0.35
+
+-->
+
+<?xml-stylesheet type="text/css" href="styles/myfile-project-defaults.css" ?>
+<?xml-stylesheet type="text/css" href="styles/myfile-project-images.css" ?>
+<?xml-stylesheet type="text/css" href="styles/myfile-project-styles.css" ?>
+
+<document context="2021.03.05 19:11" date="2023-07-13 03:10:53-03:00" file="myfile-project" language="en" version="0.35" xmlns:m="http://www.w3.org/1998/Math/MathML">
+ <metadata>
+ </metadata>
+ <section detail="title" chain="title" explicit="Ai ai ai" implicit="1" level="2" reference="Ai ai ai">
+  <sectioncontent>
+Thus, I came to the conclusion that the designer of a new system must not only be the implementer and first large--scale user; the designer should also write the first user manual.
+   <break/>
+The separation of any of these four components would have hurt TEX significantly. If I had not participated fully in all these activities, literally hundreds of improvements would never have been made, because I would never have thought of them or perceived why they were important.
+   <break/>
+But a system cannot be successful if it is too strongly influenced by a single person. Once the initial design is complete and fairly robust, the real test begins as people with many different viewpoints undertake their own experiments. 
+   <section detail="section" chain="section" explicit="Capítulo" implicit="2" level="3" reference="Capítulo">
+    <sectioncaption>
+     <sectionnumber>1</sectionnumber>
+    </sectioncaption>
+    <sectioncontent>
+Thus, I came to the conclusion that the designer of a new system must not only be the implementer and first large--scale user; the designer should also write the first user manual.
+     <break/>
+The separation of any of these four components would have hurt TEX significantly. If I had not participated fully in all these activities, literally hundreds of improvements would never have been made, because I would never have thought of them or perceived why they were important.
+     <break/>
+But a system cannot be successful if it is too strongly influenced by a single person. Once the initial design is complete and fairly robust, the real test begins as people with many different viewpoints undertake their own experiments. Agora é que são elas<descriptionsymbol detail="footnote" insert="1"><sup>1</sup></descriptionsymbol>.
+     <description detail="footnote" chain="footnote" insert="1">
+      <descriptiontag><sup>1</sup> </descriptiontag>
+      <descriptioncontent>Lipsum.</descriptioncontent>
+     </description>
+    </sectioncontent>
+   </section>
+  </sectioncontent>
+ </section>
+</document>

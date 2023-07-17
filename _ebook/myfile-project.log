@@ -1,0 +1,144 @@
+open source     > level 1, order 1, name '/usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv'
+system          > 
+system          > ConTeXt  ver: 2021.03.05 19:11 MKIV  fmt: 2022.8.13  int: english/english
+system          > 
+system          > 'cont-new.mkiv' loaded
+open source     > level 2, order 2, name '/usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv'
+system          > beware: some patches loaded from cont-new.mkiv
+close source    > level 2, order 2, name '/usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv'
+system          > files > jobname 'myfile-project', input './myfile-project', result './myfile.epub'
+fonts           > latin modern fonts are not preloaded
+languages       > language 'en' is active
+open source     > level 2, order 3, name 'env-ebook.tex'
+system          > jobfiles > unknown tex file 'env-common'
+languages       > setting righthyphenchar to U+00AD
+backend         > export > enabling export to xml
+backend         > 
+backend         > 
+fonts           > preloading latin modern fonts (second stage)
+fonts           > 'fallback modern-designsize rm 12pt' is loaded
+system          > jobfiles > unknown tex file 'env-ebook-layout'
+open source     > level 3, order 4, name 'myfile.tex'
+open source     > level 4, order 5, name '../edlab.env'
+colors          > 'rgb' color space is supported
+colors          > 'cmyk' color space is supported
+close source    > level 4, order 5, name '../edlab.env'
+open source     > level 4, order 6, name '../edlab-penalties.env'
+close source    > level 4, order 6, name '../edlab-penalties.env'
+structure       > sectioning > title @ level 2 : 0.0 -> \par 
+open source     > level 4, order 7, name '/usr/share/texmf/tex/context/sample/common/knuth.tex'
+close source    > level 4, order 7, name '/usr/share/texmf/tex/context/sample/common/knuth.tex'
+structure       > sectioning > section @ level 3 : 0.0.1 -> \par 
+open source     > level 4, order 8, name '/usr/share/texmf/tex/context/sample/common/knuth.tex'
+close source    > level 4, order 8, name '/usr/share/texmf/tex/context/sample/common/knuth.tex'
+close source    > level 3, order 8, name 'myfile.tex'
+backend         > export > fuzzy paragraph: L (U+0004C) i (U+00069) p (U+00070) s (U+00073) u (U+00075) m (U+0006D) . (U+0002E)
+backend         > xmp > using file '/usr/share/texmf/tex/context/base/mkiv/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1, subpage 1
+backend         > export > 
+backend         > export > exporting xml, xhtml, html and css files
+backend         > export > 
+backend         > export > using existing export path 'myfile-project-export'
+backend         > export > using existing images path 'myfile-project-export/images'
+backend         > export > using existing styles path 'myfile-project-export/styles'
+backend         > export > adding css reference 'styles/myfile-project-defaults.css'
+backend         > export > adding css reference 'styles/myfile-project-images.css'
+backend         > export > adding css reference 'styles/myfile-project-styles.css'
+backend         > export > saving xml data in 'myfile-project-export/myfile-project-raw.xml'
+backend         > export > saving css image definitions in 'myfile-project-export/styles/myfile-project-images.css'
+backend         > export > saving css style definitions in 'myfile-project-export/styles/myfile-project-styles.css'
+backend         > export > saving css template in 'myfile-project-export/styles/myfile-project-templates.css'
+backend         > export > saving xhtml variant in 'myfile-project-export/myfile-project-tag.xhtml'
+backend         > export > saving specification in 'myfile-project-export/myfile-project-pub.lua'
+backend         > export > saving div based alternative in 'myfile-project-export/myfile-project-div.html'
+backend         > export > 
+backend         > export > create epub with: mtxrun --script epub --make "myfile-project" [--purge --rename --svgmath]
+backend         > export > 
+close source    > level 2, order 8, name 'env-ebook.tex'
+close source    > level 1, order 8, name '/usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv'
+
+system          > start used files
+
+system          > text: myfile-project
+system          >   product: myfile
+
+system          > stop used files
+
+
+system          > start used files
+
+system          >    1: filename=char-prv.lua filetype=tex format=tex foundname=/usr/share/texmf/tex/context/base/mkiv/char-prv.lua fullname=/usr/share/texmf/tex/context/base/mkiv/char-prv.lua usedmethod=database
+system          >    2: filename=cont-yes.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv fullname=/usr/share/texmf/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
+system          >    3: filename=publ-imp-default.lua filetype=scripts foundname=/usr/share/texmf/tex/context/base/mkiv/publ-imp-default.lua fullname=/usr/share/texmf/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+system          >    4: filename=cont-new.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv fullname=/usr/share/texmf/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
+system          >    5: filename=lang-exc.lua filetype=scripts foundname=/usr/share/texmf/tex/context/base/mkiv/lang-exc.lua fullname=/usr/share/texmf/tex/context/base/mkiv/lang-exc.lua usedmethod=database
+system          >    6: filename=lang-us.lua filetype=scripts foundname=/usr/share/texmf/tex/context/patterns/mkiv/lang-us.lua fullname=/usr/share/texmf/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+system          >    7: filename=env-ebook.tex foundname=env-ebook.tex fullname=/home/editorial/LATEX/pesquisa-ConTeXt/_ebook/env-ebook.tex usedmethod=direct
+system          >    8: filename=lm.lfg filetype=tex foundname=/usr/share/texmf/tex/context/fonts/mkiv/lm.lfg fullname=/usr/share/texmf/tex/context/fonts/mkiv/lm.lfg usedmethod=database
+system          >    9: filename=lmroman12-regular filetype=otf format=otf foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf fullname=/usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf usedmethod=database
+system          >   10: filename=latinmodern-math.otf filetype=opentypefonts foundname=/usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf fullname=/usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
+system          >   11: filename=myfile.tex foundname=myfile.tex fullname=/home/editorial/LATEX/pesquisa-ConTeXt/_ebook/myfile.tex usedmethod=direct
+system          >   12: filename=../edlab.env foundname=../edlab.env fullname=/home/editorial/LATEX/pesquisa-ConTeXt/edlab.env usedmethod=direct
+system          >   13: filename=../edlab-penalties.env foundname=../edlab-penalties.env fullname=/home/editorial/LATEX/pesquisa-ConTeXt/edlab-penalties.env usedmethod=direct
+system          >   14: filename=lmroman10-regular filetype=otf format=otf foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf fullname=/usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf usedmethod=database
+system          >   15: filename=knuth filetype=tex foundname=/usr/share/texmf/tex/context/sample/common/knuth.tex fullname=/usr/share/texmf/tex/context/sample/common/knuth.tex usedmethod=database
+system          >   16: filename=lmroman8-regular filetype=otf format=otf foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf fullname=/usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf usedmethod=database
+system          >   17: filename=lpdf-pdx.xml filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/lpdf-pdx.xml fullname=/usr/share/texmf/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
+system          >   18: filename=export-example.css filetype=tex foundname=/usr/share/texmf/tex/context/base/mkiv/export-example.css fullname=/usr/share/texmf/tex/context/base/mkiv/export-example.css usedmethod=database
+
+system          > stop used files
+
+
+system          > start commandline options
+
+system          > currentrun="1"
+system          > environment="env-ebook"
+system          > fulljobname="./myfile-project.tex"
+system          > input="./myfile-project.tex"
+system          > kindofrun="1"
+system          > maxnofruns="9"
+system          > result="./myfile.epub"
+system          > texmfbinpath="/usr/bin"
+
+system          > stop commandline options
+
+
+system          > start commandline files
+
+system          >    1: ./myfile-project.tex
+
+system          > stop commandline files
+
+
+modules         > start used modules
+
+
+modules         > stop used modules
+
+
+mkiv lua stats  > used config file: /usr/share/texmf/web2c/texmfcnf.lua;/usr/share/texlive/texmf-dist/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path: readable: '/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442' | readable+writable: '/home/editorial/.texlive2021/texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442'
+mkiv lua stats  > resource resolver: loadtime 0.174 seconds, 1 scans with scantime 0.001 seconds, 0 shared scans, 18 found files, scanned paths: /home/editorial/texmf
+mkiv lua stats  > stored bytecode data: 454 modules (0.407 sec), 96 tables (0.016 sec), 550 chunks (0.423 sec)
+mkiv lua stats  > traced context: maxstack: 1424, freed: 3, unreachable: 1421
+mkiv lua stats  > cleaned up reserved nodes: 61 nodes, 9 lists of 442
+mkiv lua stats  > node memory usage: 38 attribute, 8 attribute_list, 2 glue, 52 glue_spec, 3 kern, 2 penalty, 3 shape, 2 temp, 2 user_defined
+mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 176 calls
+mkiv lua stats  > inserted spaces in output: 220
+mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
+mkiv lua stats  > jobdata time: 0.001 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: internal: 434, file: 273, direct: 1, late: 9, function 704, total: 1421 (1421 per page)
+mkiv lua stats  > randomizer: resumed with value 0.75508334487677
+mkiv lua stats  > result saved in file: ./myfile.epub.pdf, compresslevel 3, objectcompresslevel 1
+mkiv lua stats  > loaded patterns: en::1, load time: 0.000
+mkiv lua stats  > structure elements: 16 element chains identified
+mkiv lua stats  > interactive elements: 2 references, 4 destinations
+mkiv lua stats  > loaded fonts: 4 files: latinmodern-math.otf, lmroman10-regular.otf, lmroman12-regular.otf, lmroman8-regular.otf
+mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 17 instances, 11 shared in backend, 3 common vectors, 8 common hashes, load time 0.362 seconds 
+mkiv lua stats  > pdf annotations: 2 links (2 unique), 0 special
+mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: usr
+mkiv lua stats  > used engine: luatex version: 1.14, functionality level: 7439, banner: this is luatex, version 1.14.0 (tex live 2022/dev/debian)
+mkiv lua stats  > used hash slots: 46550 of 65536 + 200000
+mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 156 MB, ctx: 156 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.000 seconds, 1 processed pages, 1 shipped pages, 1.000 pages/second
+

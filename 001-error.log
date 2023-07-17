@@ -1,8 +1,0 @@
-return {
- ["filename"]="001.tex",
- ["lastcontext"]="\nl.25 \\setuplinespacing\n                     [height=.72,",
- ["lastluaerror"]="?",
- ["lasttexerror"]="! Undefined control sequence",
- ["linenumber"]=25,
- ["offset"]=10,
-}

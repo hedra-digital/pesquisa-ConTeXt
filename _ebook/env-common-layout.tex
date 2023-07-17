@@ -1,0 +1,14 @@
+\environment env-common-layout
+
+\startenvironment env-ebook-layout
+\setuplayout
+  [backspace=0.75in,
+   width=5in,
+   topspace=0.75in,
+   height=7in]
+\setuppagenumbering
+  [alternative=doublesided]
+\setupfootertexts
+  [][{\pagenumber}]
+  [{\pagenumber}][]
+\stopenvironment
