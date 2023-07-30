@@ -1,7 +1,28 @@
-\section[title={Chapter},reference={chapter}]
+\starttext
 
-sdcjksdcksd
+\input knuth
 
-\startblockquote
-dskcns {\em kdcds} kjdscksdcs
-\stopblockquote
+
+\placefigure{}{\externalfigure[kuh][width=\textwidth]}
+\placefigure[none,top]{}{\externalfigure[cow][height=1cm]}
+
+
+\input knuth
+
+
+% Need to tell ConTeXt where the cow picture is stored
+
+\setupexternalfigures[location={local,default}]
+
+\startcolumns[n=3]
+    caption=none
+    \placefigure{none}{\externalfigure[cow][height=1cm]}
+\column
+    key=none
+    \placefigure[none]{}{\externalfigure[cow][height=1cm]}
+\column
+    empty caption
+    \placefigure{}{\externalfigure[cow][height=1cm]}
+\stopcolumns
+
+\stoptext

@@ -1,0 +1,8 @@
+return {
+ ["filename"]="/home/editorial/LATEX/pesquisa-ConTeXt/charts.tex",
+ ["lastcontext"]="\nl.7 \\startwordcloud\n                  ",
+ ["lastluaerror"]="?",
+ ["lasttexerror"]="! Undefined control sequence",
+ ["linenumber"]=7,
+ ["offset"]=10,
+}

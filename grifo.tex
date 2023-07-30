@@ -1,0 +1,25 @@
+\definebar[highlight]
+          [order=background,
+           rulethickness=2.5,
+           offset=1.25,
+           continue=yes,
+           color=yellow]
+
+
+\starttext
+% https://wiki.contextgarden.net/Command/setupbar
+Aliquam risus non luctus phasellus habitant justo vestibulum potenti
+parturient tortor vitae dictum leo id fames mauris ante etiam ridiculus semper
+taciti libero malesuada dis ac lobortis bibendum consequat nisl facilisis arcu
+diam in vivamus finibus vel quisque nec urna sagittis a pede commodo mus
+lacinia si suspendisse turpis faucibus himenaeos mattis velit eleifend lacus
+\highlight{word or sentences}
+pellentesque hac maecenas eu pharetra nascetur ad venenatis lectus nulla netus
+erat elit tempor facilisi eros condimentum ut odio congue vehicula sapien
+montes curae cras inceptos et tempus cubilia suscipit ornare aliquet habitasse
+sociosqu integer per
+
+\setupbar[overstrike][color=red]
+some \overstrike{stricken} text.
+
+\stoptext
