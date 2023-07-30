@@ -1,0 +1,143 @@
+%\setuppapersize[width=205mm,height=275mm][A3]
+\definepapersize    [21x30]       [width=210mm, height=297mm]
+\definepapersize    [21x30plus]   [width=330mm, height=417mm]
+
+\setuppapersize     [21x30]       [21x30plus]
+
+% ----
+
+%\showgrid
+
+% Page composition [cont-enp.p.32]
+\setuplayout[
+              width=125mm,              % dimension fit middle
+              height=265mm,             % dimension fit middle 
+            % backspace=15mm,           % dimension
+              topspace=15mm,            % dimension
+            % margin                    % dimension
+            % leftmargin                % dimension
+            % rightmargin               % dimension
+            % header                    % dimension
+            % footer                    % dimension
+            % top                       % dimension
+            % bottom                    % dimension
+            % leftedge                  % dimension
+            % rightedge                 % dimension
+            % headerdistance            % dimension
+            % footerdistance            % dimension
+            % topdistance               % dimension
+            % bottomdistance            % dimension
+            % leftmargindistance        % dimension
+            % rightmargindistance       % dimension
+            % leftedgedistance          % dimension
+            % rightedgedistance         % dimension
+            % horoffset                 % dimension
+            % veroffset                 % dimension
+            % style                     % normal bold slanted boldslanted type cap small... command
+              marking=on,               % on off color
+              location=middle,          % left middle right bottom top singlesided doublesided
+            % scale                     % dimension
+            % nx                        % number
+            % ny                        % number
+            % dx                        % dimension
+            % dy                        % dimension
+            % lines                     % number
+              grid=yes                  % yes no
+              cutspace=2cm,             % extra... 
+              cutmark=yes,              % extra...
+              bleedoffset=1cm,          % extra...
+              trimoffset=1cm            % extra...
+]
+
+\starttext
+
+
+inner\\
+outer\\
+top\\
+bottom\\
+bottom inleft\\
+inright\\
+inmargin\\
+margin\\
+leftmargin\\
+rightmargin\\
+leftedge\\
+rightedge\\
+innermargin\\
+inneredge\\
+outeredge\\
+innner \\
+outer
+
+
+\input knuth 
+
+\placefigure[inner,none]{}{\externalfigure[inner-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[outer,none]{}{\externalfigure[outer-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[top,none]{}{\externalfigure[top-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[bottom inleft,,none]{}{\externalfigure[bottom-inleft-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[bottom,none]{}{\externalfigure[bottom-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[inright,none]{}{\externalfigure[inright-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[inmargin,none]{}{\externalfigure[inmargin-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[margin,none]{}{\externalfigure[margin-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[leftmargin,none]{}{\externalfigure[leftmargin-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[rightmargin,none]{}{\externalfigure[rightmargin-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[leftedge,none]{}{\externalfigure[leftedge-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[rightedge,none]{}{\externalfigure[rightedge-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[innermargin,none]{}{\externalfigure[innermargin-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[inneredge,none]{}{\externalfigure[inneredge-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[outeredge,none]{}{\externalfigure[outeredge-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[innner,none]{}{\externalfigure[innner-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[outer,none]{}{\externalfigure[outer-nome-da-imagem][height=8em]} \input knuth 
+
+
+\stoptext
