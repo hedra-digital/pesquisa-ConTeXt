@@ -1,3 +1,5 @@
+\useMPlibrary[dum]
+
 %\setuppapersize[width=205mm,height=275mm][A3]
 \definepapersize    [21x30]       [width=210mm, height=297mm]
 \definepapersize    [21x30plus]   [width=330mm, height=417mm]
@@ -6,7 +8,7 @@
 
 % ----
 
-%\showgrid
+\showgrid
 
 % Page composition [cont-enp.p.32]
 \setuplayout[
@@ -71,9 +73,34 @@ innner \\
 outer
 
 
-\input knuth 
+\definefloat[rightfigure][rightfigure][figure]
+\setupcaption[rightfigure][location=grid]
 
-\placefigure[inner,none]{}{\externalfigure[inner-nome-da-imagem][height=8em]} \input knuth 
+
+\startplacefigure[title={\samplefile{jojomayer}}]
+  \externalfigure[hacker][width=.75\textwidth]
+\stopplacefigure
+
+\setupcaption
+  [figure]
+  [hang=yes]
+
+\startplacefigure[title={\samplefile{jojomayer}}]
+  \externalfigure[hacker][width=.75\textwidth]
+\stopplacefigure
+
+Ad pulvinar donec facilisi habitant cubilia ut in pretium nibh a lacus neque
+justo dapibus commodo nostra platea auctor phasellus interdum lorem integer
+non maecenas nulla consectetur natoque ridiculus ante nisl ligula quisque
+euismod pede vel parturient feugiat torquent tortor gravida etiam pharetra at
+eleifend himenaeos vivamus cursus letius rhoncus venenatis tristique
+sollicitudin mauris eu per efficitur hac vulputate cras montes magna
+\placefigure[inner]{}{\externalfigure[inner-nome-da-imagem][height=8em]} 
+% \placerightfigure{}{\externalfigure[inner-nome-da-imagem][height=8em]} 
+ullamcorper morbi habitasse conubia maximus ipsum fringilla faucibus
+consectetuer sodales placerat mi turpis vitae aliquet congue consequat
+molestie nam massa sed hendrerit accumsan dictumst leo lacinia amet fermentum
+praesent
 
 \input knuth 
 
