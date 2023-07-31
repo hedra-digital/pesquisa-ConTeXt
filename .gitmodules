@@ -1,0 +1,3 @@
+[submodule "visualcounter"]
+	path = visualcounter
+	url = git@github.com:adityam/visualcounter.git

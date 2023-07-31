@@ -1,0 +1,16 @@
+\startenvironment layout
+
+\setuppapersize[A5][A4]
+
+\definefontfamily [mainface] [rm] [TeX Gyre Pagella]
+\definefontfamily [mainface] [ss] [TeX Gyre Heros]
+\definefontfamily [mainface] [mm] [TeX Gyre Pagella Math]
+
+
+\definefontfamily[changedstyles][rm][TeX Gyre Pagella][tf=style:italic,it=style:bold,bf=style:bolditalic,bi=style:regular]
+\definefontfamily[changedfiles][rm][TeX Gyre Pagella][it=file:texgyreherositalic,bi=file:texgyrecursorbolditalic]
+\definefontfamily[changedfeatures][rm][TeX Gyre Pagella][tf=features:smallcaps,bf=features:none]
+
+\setupbodyfont[mainface]
+
+\stopenvironment

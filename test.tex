@@ -1,7 +1,33 @@
-\section[title={Chapter},reference={chapter}]
+\useMPlibrary [dum]  %% sample images
 
-sdcjksdcksd
+\startsubfloatnumbering
+  \startplacefigure [title=Alpha]
+    \externalfigure
+  \stopplacefigure
 
-\startblockquote
-dskcns {\em kdcds} kjdscksdcs
-\stopblockquote
+  \startplacefigure [title=Beta]
+    \externalfigure
+  \stopplacefigure
+\stopsubfloatnumbering
+
+% \setupbodyfont[modern,11pt]
+% \setuplayout
+%   [width=11cm,
+%    rightmargin=6cm]
+
+% \setupcaption
+%   [figure]
+%   [width=\rightmarginwidth,
+%    headstyle=smallcaps,
+%    suffix={:::},
+%    prefix=yes,
+%    way=bysection,
+%    prefixsegments=chapter,
+%    align=right,
+%    location={rightmargin,high}]
+
+% \starttext
+% \showframe
+% \chapter{One}
+% \placefigure{A cow is a cow is a cow.}{\externalfigure[cow]}
+% \stoptext

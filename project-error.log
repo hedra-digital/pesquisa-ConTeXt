@@ -1,0 +1,8 @@
+return {
+ ["filename"]="/usr/share/texmf/doc/context/third/context-notes-zh-cn/src/layout.tex",
+ ["lastcontext"]="\nl.12 \\startniceTEX\n                 ",
+ ["lastluaerror"]="?",
+ ["lasttexerror"]="! Undefined control sequence",
+ ["linenumber"]=12,
+ ["offset"]=10,
+}

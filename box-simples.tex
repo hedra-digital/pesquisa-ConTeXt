@@ -1,0 +1,76 @@
+% https://adityam.github.io/context-blog/post/frame-with-solid-left-line/
+\definecolor[darkgray]  [s=0.5]
+\definecolor[lightgray] [s=0.95]
+
+\defineframedtext
+  [leftbartext]
+  [
+    width=broad,
+    frame=off,
+    framecolor=darkgray,
+    leftframe=on,
+    rulethickness=2ex,
+    offset=0.25ex,
+    loffset=3ex, 
+    background=color,
+    backgroundcolor=lightgray,
+  ]
+
+\definecolor[darkred]   [r=0.8]
+\definecolor[darkgreen] [g=0.8]
+\definecolor[darkblue]  [b=0.8]
+
+\definecolor[lightred]   [0.95(red,white)]
+\definecolor[lightgreen] [0.95(green,white)]
+\definecolor[lightblue]  [0.95(blue,white)]
+
+\defineframedtext
+  [exampletext]
+  [leftbartext]
+  [
+    framecolor=darkgreen,
+    backgroundcolor=lightgreen,
+  ]
+
+\defineframedtext
+  [alerttext]
+  [leftbartext]
+  [
+    framecolor=darkred,
+    backgroundcolor=lightred,
+  ]
+
+\defineframedtext
+  [blocktext]
+  [leftbartext]
+  [
+    framecolor=darkblue,
+    backgroundcolor=lightblue,
+  ]
+
+\starttext
+
+\startleftbartext
+Scelerisque nullam pharetra faucibus purus non laoreet sollicitudin donec rutrum vulputate metus diam erat nec lobortis accumsan consectetuer bibendum himenaeos ac tellus parturient iaculis vestibulum fusce vehicula litora netus adipiscing sapien facilisis proin cursus condimentum mollis quis pede commodo fames quam conubia hac venenatis feugiat mauris pulvinar volutpat curae at turpis eleifend nibh potenti orci risus sodales torquent natoque convallis felis sem ultrices praesent sit phasellus elit cubilia taciti a montes eget ligula dolor per habitasse curabitur tortor aliquam congue tristique semper tempor eros quisque odio ultricies morbi senectus arcu interdum.
+\stopleftbartext
+
+\input knuth
+
+\startexampletext
+Scelerisque nullam pharetra faucibus purus non laoreet sollicitudin donec rutrum vulputate metus diam erat nec lobortis accumsan consectetuer bibendum himenaeos ac tellus parturient iaculis vestibulum fusce vehicula litora netus adipiscing sapien facilisis proin cursus condimentum mollis quis pede commodo fames quam conubia hac venenatis feugiat mauris pulvinar volutpat curae at turpis eleifend nibh potenti orci risus sodales torquent natoque convallis felis sem ultrices praesent sit phasellus elit cubilia taciti a montes eget ligula dolor per habitasse curabitur tortor aliquam congue tristique semper tempor eros quisque odio ultricies morbi senectus arcu interdum. Scelerisque nullam pharetra faucibus purus non laoreet sollicitudin donec rutrum vulputate metus diam erat nec lobortis accumsan consectetuer bibendum himenaeos ac tellus parturient iaculis vestibulum fusce vehicula litora netus adipiscing sapien facilisis proin cursus condimentum mollis quis pede commodo fames quam conubia hac venenatis feugiat mauris pulvinar volutpat curae at turpis eleifend nibh potenti orci risus sodales torquent natoque convallis felis sem ultrices praesent sit phasellus elit cubilia taciti a montes eget ligula dolor per habitasse curabitur tortor aliquam congue tristique semper tempor eros quisque odio ultricies morbi senectus arcu interdum. 
+\stopleftbartext
+
+\startalerttext
+Scelerisque nullam pharetra faucibus purus non laoreet sollicitudin donec rutrum vulputate metus diam erat nec lobortis accumsan consectetuer bibendum himenaeos ac tellus parturient iaculis vestibulum fusce vehicula litora netus adipiscing sapien facilisis proin cursus condimentum mollis quis pede commodo fames quam conubia hac venenatis feugiat mauris pulvinar volutpat curae at turpis eleifend nibh potenti orci risus sodales torquent natoque convallis felis sem ultrices praesent sit phasellus elit cubilia taciti a montes eget ligula dolor per habitasse curabitur tortor aliquam congue tristique semper tempor eros quisque odio ultricies morbi senectus arcu interdum.
+\stopleftbartext
+
+\page
+aa\vfill
+\startblocktext
+Scelerisque nullam pharetra faucibus purus non laoreet sollicitudin donec rutrum vulputate metus diam erat nec lobortis accumsan consectetuer bibendum himenaeos ac tellus parturient iaculis vestibulum fusce vehicula litora netus adipiscing sapien facilisis proin cursus condimentum mollis quis pede commodo fames quam conubia hac venenatis feugiat mauris pulvinar volutpat curae at turpis eleifend nibh potenti orci risus sodales torquent natoque convallis felis sem ultrices praesent sit phasellus elit cubilia taciti a montes eget ligula dolor per habitasse curabitur tortor aliquam congue tristique semper tempor eros quisque odio ultricies morbi senectus arcu interdum.
+\stopleftbartext
+
+\stoptext
+
+
+

@@ -1,0 +1,75 @@
+% To fit all the examples on one page, we need a taller page
+\definepapersize[tall][width=15cm, height=42cm]
+\setuppapersize[tall]
+
+The table below has a row for each \type{\blank[#1]} keyword, and three columns:
+\startitemize[packed]
+    \item column 1 demonstrates \type{\blank[#1]} on its own;
+    \item column 2 shows what \type{\blank[#1]} does when it comes after a \type{\blank[medium]};
+    \item column 3 shows what \type{\blank[#1]} does when it comes before a \type{\blank[medium]}.
+\stopitemize
+
+\defineparagraphs[whiting]
+    [n=3,
+    before={\blank[none]},     % Minimal padding, please.
+    after={\blank[nowhite]}]   %
+
+\definestartstop[whiteafter][
+    before={\blank[none]} ,    % No padding, please
+    after={\blank[medium]}     % The blank of interest
+    ]
+\definestartstop[whitebefore]
+    [before={\blank[medium]},  % The blank of interest
+    after={\blank[none]}       % No padding, please
+    ]
+
+
+\showgrid
+
+
+\def\example#1{%
+    \startwhiting
+        \type{#1} \crlf
+        Antelope, caribou, ocelot.
+        \blank[#1]
+        Don’t want an antelope nibbling the hoops.
+    \whiting
+        medium + {\tt #1}
+        % No crlf here, or it'll combine with \blank[none] to create a blank line anyway.
+        % (I assume it's equivalent to \crlf\crlf, or something.)
+        \startwhiteafter
+            Antelope, caribou, ocelot.
+        \stopwhiteafter
+        \blank[#1]
+        Don’t want an antelope nibbling the hoops.
+    \whiting
+        {\tt #1} + medium \crlf
+        Antelope, caribou, ocelot.
+        \blank[#1]
+        \startwhitebefore
+            Don’t want an antelope nibbling the hoops.
+        \stopwhitebefore
+    \stopwhiting
+    \hairline
+}
+
+\starttext
+
+
+\example{small}
+\example{medium}
+\example{big}
+\example{nowhite}
+\example{back}
+\example{white}
+\example{disable}
+\example{line}
+\example{halfline}
+\example{formula}
+\example{fixed}
+\example{flexible}
+\example{none}
+\example{samepage}
+
+
+\stoptext

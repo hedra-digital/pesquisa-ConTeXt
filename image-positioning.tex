@@ -1,0 +1,190 @@
+\useMPlibrary[dum]
+
+%\setuppapersize[width=205mm,height=275mm][A3]
+\definepapersize    [21x30]       [width=210mm, height=297mm]
+\definepapersize    [21x30plus]   [width=330mm, height=417mm]
+
+\setuppapersize     [21x30]       [21x30plus]
+
+% ----
+
+%\showgrid
+
+% Page composition [cont-enp.p.32]
+\setuplayout[
+              width=125mm,              % dimension fit middle
+              height=265mm,             % dimension fit middle 
+            % backspace=15mm,           % dimension
+              topspace=15mm,            % dimension
+            % margin                    % dimension
+            % leftmargin                % dimension
+            % rightmargin               % dimension
+            % header                    % dimension
+            % footer                    % dimension
+            % top                       % dimension
+            % bottom                    % dimension
+            % leftedge                  % dimension
+            % rightedge                 % dimension
+            % headerdistance            % dimension
+            % footerdistance            % dimension
+            % topdistance               % dimension
+            % bottomdistance            % dimension
+            % leftmargindistance        % dimension
+            % rightmargindistance       % dimension
+            % leftedgedistance          % dimension
+            % rightedgedistance         % dimension
+            % horoffset                 % dimension
+            % veroffset                 % dimension
+            % style                     % normal bold slanted boldslanted type cap small... command
+              marking=on,               % on off color
+              location=middle,          % left middle right bottom top singlesided doublesided
+            % scale                     % dimension
+            % nx                        % number
+            % ny                        % number
+            % dx                        % dimension
+            % dy                        % dimension
+            % lines                     % number
+              grid=yes                  % yes no
+              cutspace=2cm,             % extra... 
+              cutmark=yes,              % extra...
+              bleedoffset=1cm,          % extra...
+              trimoffset=1cm            % extra...
+]
+
+\starttext
+
+
+\title{Posicionamento de imagem}
+
+\subject{Opções}
+
+
+\setupitemgroup[itemize:1][symbol=4] 
+\setupitemize
+   [1]       % level of itemization
+   [packed]
+   % [margin=no,
+   %  distance=5em,
+   %  stopper=,
+   %  left=Idea ,
+   %  right=:]
+
+\startitemize[columns,three]
+\item inner
+\item outer
+\item top
+\item bottom
+\item bottom inleft
+\item inright
+\item inmargin
+\item margin
+\item leftmargin
+\item rightmargin
+\item leftedge
+\item rightedge
+\item innermargin
+\item inneredge
+\item outeredge
+\item innner 
+\item outer
+\stopitemize
+%\stopcolumns
+
+\definefloat[rightfigure][rightfigure][figure]
+\setupcaption[rightfigure][location=grid]
+
+
+\startplacefigure[title={\samplefile{jojomayer}}]
+  \externalfigure[hacker][width=.75\textwidth]
+\stopplacefigure
+
+\setupcaption
+  [figure]
+  [hang=yes]
+
+\startplacefigure[title={\samplefile{jojomayer}}]
+  \externalfigure[hacker][width=.75\textwidth]
+\stopplacefigure
+
+
+\placefigure [2*hang] {caption} {\externalfigure[figurename]}
+
+Ad pulvinar donec facilisi habitant cubilia ut in pretium nibh a lacus neque
+justo dapibus commodo nostra platea auctor phasellus interdum lorem integer
+non maecenas nulla consectetur natoque ridiculus ante nisl ligula quisque
+euismod pede vel parturient feugiat torquent tortor gravida etiam pharetra at
+eleifend himenaeos vivamus cursus letius rhoncus venenatis tristique
+sollicitudin mauris eu per efficitur hac vulputate cras montes magna
+\placefigure[inner]{}{\externalfigure[inner-nome-da-imagem][height=8em]} 
+% \placerightfigure{}{\externalfigure[inner-nome-da-imagem][height=8em]} 
+ullamcorper morbi habitasse conubia maximus ipsum fringilla faucibus
+consectetuer sodales placerat mi turpis vitae aliquet congue consequat
+molestie nam massa sed hendrerit accumsan dictumst leo lacinia amet fermentum
+praesent
+
+\input knuth 
+
+\placeongrid{\placefigure[outer,none]{}{\externalfigure[Outer-nome-da-imagem][height=8em]}} \input knuth 
+
+\input knuth 
+
+\placefigure[top,none]{}{\externalfigure[top-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[bottom inleft,,none]{}{\externalfigure[bottom-inleft-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[bottom,none]{}{\externalfigure[bottom-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[inright,none]{}{\externalfigure[inright-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[inmargin,none]{}{\externalfigure[inmargin-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[margin,none]{}{\externalfigure[margin-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[leftmargin,none]{}{\externalfigure[leftmargin-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[rightmargin,none]{}{\externalfigure[rightmargin-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[leftedge,none]{}{\externalfigure[leftedge-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[rightedge,none]{}{\externalfigure[rightedge-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[innermargin,none]{}{\externalfigure[innermargin-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[inneredge,none]{}{\externalfigure[inneredge-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[outeredge,none]{}{\externalfigure[outeredge-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[innner,none]{}{\externalfigure[innner-nome-da-imagem][height=8em]} \input knuth 
+
+\input knuth 
+
+\placefigure[outer,none]{}{\externalfigure[outer-nome-da-imagem][height=8em]} \input knuth 
+
+
+\stoptext

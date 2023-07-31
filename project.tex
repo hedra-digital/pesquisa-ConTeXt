@@ -1,0 +1,108 @@
+% Coleção = SAEB
+\startproject documents 
+
+An example of a project file.
+
+% Layout 
+\environment layout
+
+\product teacher
+\product pupil
+\product curriculum
+
+\stopproject
+
+
+..............
+% teacher.tex
+
+\startproduct teacher
+
+\project documents
+
+\component teacher1
+\component teacher2
+
+\stopproduct
+
+
+..............
+%teacher2
+\startcomponent teacher2
+
+\project documents
+\product teacher
+
+... text ...
+
+\stopcomponent
+
+
+======================================
+
+
+% Coleção = SAEB
+\startproject SAEB
+
+An example of a project file.
+
+% Layout 
+\environment layout
+
+\product aluno
+\product professor
+\product coordenador
+\product cartazes
+
+\stopproject
+
+
+..............
+% aluno.tex
+
+\startproduct aluno
+
+\project documents
+
+\component 1M
+\component 1P
+
+\stopproduct
+
+
+..............
+% 1M.tex
+\startcomponent 1M
+
+\project SAEB
+\product aluno
+
+... text ...
+
+\stopcomponent
+
+
+======================
+
+
+In principal a project file contains only a list of products and environments.
+If you would process the project file all products will be placed in one
+document. This is seldom wanted. This manual for example has a project
+structure. Every part is a product and every chapter is a component. There are
+several environments that are loaded in the main project file.
+
+Project = Primeiro Ano
+  > Product = Matemática
+  	 > Component = Capítulos
+
+
+===================================
+environmemnt 
+
+
+It is good practice to put all setups in one environment. In case a component or product has a
+different layout you could define localenvironments:
+
+\startlocalenvironment[names]
+... setups ...
+\stoplocalenvironment

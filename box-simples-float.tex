@@ -1,0 +1,35 @@
+\defineframedtext
+  [leftbartext]
+  [
+    width=broad,
+    frame=off,
+    framecolor=darkgray,
+    leftframe=on,
+    rulethickness=2ex,
+    offset=0.25ex,
+    loffset=3ex, 
+    background=color,
+    backgroundcolor=lightgray,
+  ]
+
+\starttext
+
+\startbuffer[leftbartextcontent]
+  \input knuth
+  \input knuth
+  \input knuth
+  \input knuth
+  \input knuth
+  \input knuth
+  \input knuth
+  \input knuth
+  \input knuth
+  \input knuth
+  \input knuth
+\stopbuffer
+
+\startleftbartext
+  \getbuffer[leftbartextcontent]
+\stopleftbartext
+
+\stoptext

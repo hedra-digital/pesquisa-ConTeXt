@@ -1,0 +1,53 @@
+% Specific layout for rendering on the wiki, for rendering a similar pdf via context, add some width
+
+\definepapersize[sheet][width=16cm,height=25cm]
+\setuppapersize[sheet]
+\setuplayout[topspace=0.5mm,
+             backspace=0.5mm,
+             header=0pt,
+             headerdistance=0pt,
+             footer=0pt,
+             footerdistance=0pt,
+             width=15.9cm,
+             height=24.9cm,
+             leftmargin=0.5mm,
+             grid=yes]
+
+%
+\setupbodyfont[modern]
+\setupwhitespace[medium]
+
+% this enlarges the fonts, see Font Switching on the wiki
+\tfb
+
+%
+\starttext
+
+\startbuffer[line]
+The quick brown fox jumps over the lazy dog!
+\stopbuffer
+                                        \getbuffer[line] \wordright{default --- Latin Modern serif} \par
+\switchtobodyfont[modern,ss]            \getbuffer[line] \wordright{Latin Modern sans}      \par
+\switchtobodyfont[modern,tt]            \getbuffer[line] \wordright{Latin Modern mono}      \par
+\switchtobodyfont[adventor]             \getbuffer[line] \wordright{TeX Gyre Adventor}      \par
+\switchtobodyfont[bonum]                \getbuffer[line] \wordright{TeX Gyre Bonum}         \par
+\switchtobodyfont[chorus]               \getbuffer[line] \wordright{TeX Gyre Chorus}        \par
+\switchtobodyfont[cursor]               \getbuffer[line] \wordright{TeX Gyre Cursor}        \par
+\switchtobodyfont[heros]                \getbuffer[line] \wordright{Tex Gyre Heros}         \par
+\switchtobodyfont[pagella]              \getbuffer[line] \wordright{TeX Gyre Pagella}       \par
+\switchtobodyfont[schola]               \getbuffer[line] \wordright{TeX Gyre Schola}        \par
+\switchtobodyfont[termes]               \getbuffer[line] \wordright{Tex Gyre Termes}        \par
+\switchtobodyfont[dejavu]               \getbuffer[line] \wordright{DejaVu serif}           \par
+\switchtobodyfont[dejavu,ss]            \getbuffer[line] \wordright{DejaVu sans}            \par
+\switchtobodyfont[dejavu,tt]            \getbuffer[line] \wordright{DejaVu sansmono}        \par
+\switchtobodyfont[gentium]              \getbuffer[line] \wordright{Gentium}                \par
+\switchtobodyfont[antykwa]              \getbuffer[line] \wordright{Antykwa Toruńska}       \par
+\switchtobodyfont[antykwapoltawskiego]  \getbuffer[line] \wordright{Antykwa Półtawskiego}   \par
+\switchtobodyfont[kurier,ss]            \getbuffer[line] \wordright{Kurier}                 \par
+\switchtobodyfont[iwona]                \getbuffer[line] \wordright{Iwona}                  \par
+\switchtobodyfont[almfixed,tt]          \getbuffer[line] \wordright{ALM Fixed}              \par
+\switchtobodyfont[eulernova]            \getbuffer[line] \wordright{Euler (for math)}       \par
+\switchtobodyfont[stixtwo]              \getbuffer[line] \wordright{STIX Two}               \par
+\switchtobodyfont[xits]                 \getbuffer[line] \wordright{XITS (for math)}        \par
+
+\stoptext
