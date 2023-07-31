@@ -8,7 +8,7 @@
 
 % ----
 
-\showgrid
+%\showgrid
 
 % Page composition [cont-enp.p.32]
 \setuplayout[
@@ -54,24 +54,41 @@
 \starttext
 
 
-inner\\
-outer\\
-top\\
-bottom\\
-bottom inleft\\
-inright\\
-inmargin\\
-margin\\
-leftmargin\\
-rightmargin\\
-leftedge\\
-rightedge\\
-innermargin\\
-inneredge\\
-outeredge\\
-innner \\
-outer
+\title{Posicionamento de imagem}
 
+\subject{Opções}
+
+
+\setupitemgroup[itemize:1][symbol=4] 
+\setupitemize
+   [1]       % level of itemization
+   [packed]
+   % [margin=no,
+   %  distance=5em,
+   %  stopper=,
+   %  left=Idea ,
+   %  right=:]
+
+\startitemize[columns,three]
+\item inner
+\item outer
+\item top
+\item bottom
+\item bottom inleft
+\item inright
+\item inmargin
+\item margin
+\item leftmargin
+\item rightmargin
+\item leftedge
+\item rightedge
+\item innermargin
+\item inneredge
+\item outeredge
+\item innner 
+\item outer
+\stopitemize
+%\stopcolumns
 
 \definefloat[rightfigure][rightfigure][figure]
 \setupcaption[rightfigure][location=grid]
@@ -89,6 +106,9 @@ outer
   \externalfigure[hacker][width=.75\textwidth]
 \stopplacefigure
 
+
+\placefigure [2*hang] {caption} {\externalfigure[figurename]}
+
 Ad pulvinar donec facilisi habitant cubilia ut in pretium nibh a lacus neque
 justo dapibus commodo nostra platea auctor phasellus interdum lorem integer
 non maecenas nulla consectetur natoque ridiculus ante nisl ligula quisque
@@ -104,7 +124,7 @@ praesent
 
 \input knuth 
 
-\placefigure[outer,none]{}{\externalfigure[outer-nome-da-imagem][height=8em]} \input knuth 
+\placeongrid{\placefigure[outer,none]{}{\externalfigure[Outer-nome-da-imagem][height=8em]}} \input knuth 
 
 \input knuth 
 
