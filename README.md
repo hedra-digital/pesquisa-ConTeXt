@@ -1,38 +1,19 @@
 # pesquisa-ConTeXt
 
 
-- [x] 001 Tamanho, medidas, margens
-- [x] 002 Fontes, hiperlink
-- [ ] 003 Cores de texto
-- [ ] 004 Pincelada de tinta
-- [ ] 005 Posicionamento da imagem
-- [ ] 006 Numeração de página com box colorito
-- [ ] 007 Box de conteúdo
-- [ ] 008 Layout de capítulo
-- [ ] 009 Exercícios: linhas, boxes e múltipla escolha
-- [ ] 010 Box pontilhado em toda a página (ver p.12)
-- [ ] 011 Resposta do professor
-- [x] 012 Marca de cortes
-- [ ] 013 URLs
+## Armário
 
-```tex
-% First line of the document
-% Preamble area:
-% Containing the global configuration
-% commands for the document
-\starttext % The body of the document begins here
-...
-... % Document contents
-...
-\stoptext % End of the document
-```
+## Fazer
+* Terceira fase da diagramação: versões finais
+* Quarta fase da diagramação: manual e detalhamento (ex: uso de cores)
 
 
+## Fazendo 
+* Ebook
+* Primeiros testes com TikZ (grafismos, seções)
+* Primeiros testes com TikZ (exercícios de matemática)
+* Segunda fase da diagramação (crítica e desdobramentos dos modelos)
 
-## pandoc
 
-```
-pandoc test.md -t context -o test.tex
-```
+## Feito
 
-Ver também https://hackmd.io/1cfxEsUTTcC5dSTWjqzyYg?view

@@ -1,0 +1,17 @@
+\usemodule[tikz]
+\usetikzlibrary[patterns,patterns.meta]
+\starttext
+
+\starttikzpicture
+  \draw[pattern={fivepointed stars},pattern color=orange]
+    (0,0) rectangle +(1,1);
+  \draw[pattern={Stars},pattern color=blue]
+    (0,0) rectangle +(1,1);
+
+  \draw[pattern={sixpointed stars},pattern color=orange]
+    (1,0) rectangle +(1,1);
+  \draw[pattern={Stars[points=6]},pattern color=blue]
+    (1,0) rectangle +(1,1);
+\stoptikzpicture
+
+\stoptext

@@ -1,0 +1,53 @@
+\usemodule[tikz]
+
+\starttext
+
+\usecolors[crayola]
+% https://wiki.contextgarden.net/Command/setupbackgrounds
+
+\page[+2]
+
+\input knuth
+
+\break
+
+
+
+
+
+
+\begingroup
+\ifodd\realpageno
+            \relax 
+            \page[empty] 
+            \else 
+            \fi
+
+\starttikzpicture[remember picture,overlay]
+                  %\fill[red] (current page.south east) rectangle ++(-5cm, \paperheight);
+                  \draw[step=1cm,gray,very thin,color=white] (-\paperwidth,-\paperheight) grid (\paperwidth,\paperheight);
+                \stoptikzpicture
+
+
+
+  \setuppagenumbering[location=]
+  \setupbackgrounds  [paper]                 [background=color,backgroundcolor=Almond]
+  
+  
+  \bfd APERTURA DE PÁGINA\blank[big]
+  \bfc Testando qualquer abertura
+  \page
+\endgroup
+
+
+
+
+\startsection[title=Exemplo]
+  Conteúdo do documento.
+\stopsection
+
+
+\input knuth\input knuth\input knuth\input knuth\input knuth\input knuth\input knuth\input knuth\input knuth\input knuth\input knuth\input knuth
+
+
+\stoptext

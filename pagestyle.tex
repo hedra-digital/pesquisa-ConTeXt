@@ -1,0 +1,27 @@
+\usemodule[page-styles]
+
+\definestartstop
+  [myheader]
+  [style=\bfa, % Defina o estilo da fonte
+   color=blue, % Defina a cor do texto
+   header=empty, % Defina o cabeçalho vazio
+   footer=empty] % Defina o rodapé vazio
+
+\setupheadertexts[\setups{myheader}]
+
+\startsetups[myheader]
+  % Configuração personalizada do cabeçalho
+\stopsetups
+
+\starttext
+
+\startmyheader
+  é um parágrafo com o estilo de página definido.
+\stopmyheader
+
+\myheader{Outro.}
+
+
+
+
+\stoptext

@@ -1,0 +1,49 @@
+\defineresetset[myreset][][0]
+
+\definehead[mysection][section=section-8, sectionresetset=myreset]
+\setuplist[mysection][numbersegments=mysection]
+
+
+
+
+\startuseMPgraphic{mysection}
+StartPage ;
+  fill Page withcolor green ;
+StopPage ;
+\stopuseMPgraphic
+
+\definelayer[mysection][width=\paperwidth, height=\paperheight]
+\defineoverlay[pagebackground][\directsetup{pagebackground}]
+\setupbackgrounds[page][background=pagebackground]
+
+\startsetups pagebackground
+\doifelsemode {mysectionpage} {
+  \setlayer[mysection][preset=lefttop]{\useMPgraphic{mysection}}
+  %\globaldisablemode[mysectionpage]           <--------------------------
+  }{}
+\placelayer[mysection]
+\stopsetups
+
+\startsetups mysection:before
+\globalenablemode[mysectionpage]
+\stopsetups
+
+\setuphead[mysection][before={\page[yes]\setup{mysection:before}}]
+\setuphead[section][before={\page[yes]}]
+
+
+
+
+\starttext
+\startsection[title=Section]
+  \dorecurse{3}{\input knuth}
+\stopsection
+
+\startmysection[title=My Section]
+  \dorecurse{15}{\input ward}
+\stopmysection
+
+\startsection[title=Section]
+  \dorecurse{3}{\input knuth}
+\stopsection
+\stoptext

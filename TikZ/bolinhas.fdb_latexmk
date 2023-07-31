@@ -1,0 +1,15 @@
+# Fdb version 3
+["xdvipdfmx"] 1689028457 "bolinhas.xdv" "bolinhas.pdf" "bolinhas" 1689028457
+  "bolinhas.xdv" 1689028457 5456 9bfd63ef6a219d8b8487f232be2ed8ce "xelatex"
+  (generated)
+  "bolinhas.pdf"
+["xelatex"] 1689028508 "bolinhas.tex" "bolinhas.xdv" "bolinhas" 1689028509
+  "/etc/texmf/web2c/texmf.cnf" 1668283995 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1685524214 5133137 ab87bb1246a162de23862d042abcd847 ""
+  "bolinhas.aux" 1689028457 127 5d5fdbdd5893a514e79fe4bbeb55f876 "xelatex"
+  "bolinhas.tex" 1689028508 395 7fb0bcbf93a70f42d2fd81cb6a20c3c9 ""
+  (generated)
+  "bolinhas.log"
+  "bolinhas.xdv"

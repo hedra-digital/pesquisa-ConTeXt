@@ -1,0 +1,8 @@
+return {
+ ["filename"]="/home/editorial/LATEX/pesquisa-ConTeXt/boxes/box.tex",
+ ["lastcontext"]="\nl.3 \\documentclass\n                 [a5paper]{article}",
+ ["lastluaerror"]="?",
+ ["lasttexerror"]="! Undefined control sequence",
+ ["linenumber"]=3,
+ ["offset"]=10,
+}

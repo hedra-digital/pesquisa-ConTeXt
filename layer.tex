@@ -1,0 +1,27 @@
+\definelayer
+  [backgroundlayer]
+  [width=\paperwidth,
+   height=\paperheight]
+
+\setlayer
+  [backgroundlayer]
+  [preset=middle]
+  {\framed[frame=off, background=color, backgroundcolor=red]{\null}}
+
+\setupbackgrounds
+  [page]
+  [background=backgroundlayer][state=start]
+
+\starttext
+
+\input knuth
+\input knuth
+\input knuth
+\input knuth
+\input knuth
+\input knuth
+\input knuth
+\input knuth
+\input knuth
+
+\stoptext

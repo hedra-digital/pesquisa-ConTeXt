@@ -1,0 +1,35 @@
+\usecolors[dem]
+
+% Background
+\setupbackgrounds[page][background=color,backgroundcolor=RAL1023]
+
+\starttext
+
+\showpalet [beta] [vertical,name,number]
+\showpalet [gamma] [vertical,name]
+\showpalet [delta] [vertical,name]
+\showpalet [epsilon] [vertical,name]
+\showpalet [zeta] [vertical,name,value]
+
+
+\showpalet [epsilon] [horizontal,name,value,number]
+
+
+\showcolor[crayola]
+
+
+\startframed[frame=off, background=color, backgroundcolor=RAL1023, foregroundcolor=white]
+Este é um exemplo de caixa de texto preenchida com cor vermelha e texto branco.
+\stopframed
+
+\startframed[frame=off, background=color, backgroundcolor=VanDykeBrown, foregroundcolor=white]
+Este é um exemplo de caixa de texto preenchida com cor vermelha e texto branco.
+\stopframed
+
+\usecolors[ral]
+
+\startframed[frame=off, background=color, backgroundcolor=RAL1013, foregroundcolor=white]
+Este é um exemplo de caixa de texto preenchida com cor vermelha e texto branco.
+\stopframed
+
+\stoptext

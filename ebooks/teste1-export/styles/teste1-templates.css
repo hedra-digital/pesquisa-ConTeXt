@@ -1,0 +1,11 @@
+/* template for file teste1 */
+
+@namespace context url('http://www.contextgarden.net/context/export') ;
+
+
+/* element="document" detail="" chain="" */
+
+document,
+div.document {
+    display: block ;
+}
