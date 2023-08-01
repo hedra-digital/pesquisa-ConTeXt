@@ -1,8 +1,0 @@
-return {
- ["filename"]="/home/editorial/LATEX/pesquisa-ConTeXt/test.tex",
- ["lastcontext"]="\nl.3 \\startsubfloatnumbering\n                          ",
- ["lastluaerror"]="?",
- ["lasttexerror"]="! Undefined control sequence",
- ["linenumber"]=3,
- ["offset"]=10,
-}
