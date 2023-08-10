@@ -1,0 +1,17 @@
+% https://wiki.contextgarden.net/Modes
+
+\startmode[palatino]
+   \setupbodyfont[palatino,12pt]
+\stopmode
+
+\startmode[times]
+   \setupbodyfont[postscript,12pt]
+\stopmode
+
+
+ context --mode=palatino filename
+ context --mode=times    filename
+
+\starttext
+\input knuth
+\stoptext
