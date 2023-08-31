@@ -1,22 +1,25 @@
+\usemodule [tikz]
 % Modificando bastante o ToC
 
 \setupindenting[yes,next,4ex]	  % Indentação
 
 \define[3]\SectionListEntry
   {\par \leftaligned\bgroup
-     \hbox to 0em{\color[red]{\bfc #3}}%
-         %\hskip   0em
-         \vtop{\hsize\dimexpr\textwidth-3em\relax#2}
+     \hbox to 0em{\color[red]{\bf #1}} % Página
+         \hskip   2em
+         \vtop{\hsize\dimexpr\textwidth-3em\relax#2 ... #3 \tikz{\node {#3};}}
   \egroup \par}
+\setuplist[chapter,section,subsection][alternative=command,command=\SectionListEntry]
 
-\setuplist[{chapter,section,subsection}][alternative=command,command=\SectionListEntry]
+
+
+
 
 \starttext
 
 
 %\placecontent
 \completecontent
-
 
 
 
